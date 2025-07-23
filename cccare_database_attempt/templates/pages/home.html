@@ -1,0 +1,16 @@
+{% extends 'base.html'%}
+
+{% block header %}
+    <h2>{% block title %}Home{% endblock title %}</h2>
+{% endblock header %}
+
+{% block content %}
+    <p>
+        Quick Actions: 
+        <ul>
+            <li><a href="{{ url_for('pages.add_patient')}}">Add a Patient</a></li>   
+            <li><a href="{{ url_for('pages.session_scheduling')}}">Schedule a Session</a></li>  
+        </ul>
+
+    </p>
+{% endblock content %}
