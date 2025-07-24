@@ -118,4 +118,7 @@ These are all child templates which extend the base template `base.html`. Each c
 - Accesses the info for each exercise through
 
 ### scheduler.html and edit_session.html
-- Connects to corresponding Session form and relevant subforms 
+- Connects to corresponding Session form and relevant subforms
+
+# Adding Arduino and Serial Connections
+To add alternative functionality to this database, (sensor_monitor.py)[Database/sensor_monitor.py] and (double_rep_sensor.ino)[double_rep_sensor.ino] can be combined to automatically update the database with the number of completed reps for an exercise. Take a look at the Sensor Guide for more information on how to set up and use the sensors provided with Arduino. The sensor_monitor script should automatically run with the database (and it might throw up some errors if you don't have the Arduino connected to your laptop) but you won't see any increase in the completed reps until you reload the page. 
