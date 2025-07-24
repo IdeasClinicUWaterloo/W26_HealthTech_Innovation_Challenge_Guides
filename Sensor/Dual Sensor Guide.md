@@ -1,5 +1,9 @@
+# Dual Sensor Guide
+
+## 1. Introduction
 For a general start up guide on sensors, refer to [this guide from last year!](Dashboard/GUIDE.md)
 
+## 2. Sensor Setup
 In order to utilize 2 accelerometers, the sensors need to have different addresses for the Arduino to recognize that data is coming from different sources. The address pin is found on the back of the sensor. By soldering over the address pin (left) on one of the accelerometers, this will change its address from 0x68 to 0x69. 
       
 <img width="430" height="286" alt="image" src="https://github.com/user-attachments/assets/a860107e-96ee-4cc1-a083-f7665f7b1958" /> <img width="439" height="285" alt="image" src="https://github.com/user-attachments/assets/fbdd0136-2462-4016-ab91-4721d036ccd2" />
@@ -55,3 +59,6 @@ Now that the library has been modified, the begin function will set an address f
     while (1);
   }
 ```
+
+## 3. Using Dual Sensors for Exercise Tracking
+One effective application for these sensors is measuring the angle between two segments at a joint, allowing them to be used as a device for tracking range of motion. 
