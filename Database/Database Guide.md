@@ -14,7 +14,7 @@ SQL is the language used to interact with databases, allowing users to create, m
 To create our database with SQLAlchemy, we will use models which inherit from a base python class provided by SQLAlchemy that allows for operations between the model and the database table. 
 For example, here is the model for the Session table:
 
-```
+```python
 class Session(db.Model):
     __tablename__ = "sessions"
     session_id = db.Column(db.Integer, primary_key = True)
@@ -47,7 +47,7 @@ If you want to be able to visualize your database, SQLite Viewer is a useful VSC
 # Flask-WTForms 
 WTForms will allow us to take inputs for creating new data or updating existing data. 
 Start off by creating forms which mirrors the corresponding model, excluding any fields which don’t require user input. For example, almost all of the exercise types have models defined as such: 
-```
+```python
 class Push(db.Model):
     __tablename__ = "push"
     push_id = db.Column(db.Integer, primary_key = True)
@@ -58,7 +58,7 @@ class Push(db.Model):
     sessions = db.relationship("Session", backref = backref("push"))
 ```
 However, we wouldn’t want the user to manually define the primary key, and we can implement a method to automatically update the reps completed. Additionally, defining a relationship between tables isn't a field which users can input, so our corresponding form doesn’t include these fields: 
-```
+```python
 class PushForm(FlaskForm):
     exercise_name = StringField('Push Exercise Name')
     target_reps = IntegerField('Target Reps', validators=[Optional()])
