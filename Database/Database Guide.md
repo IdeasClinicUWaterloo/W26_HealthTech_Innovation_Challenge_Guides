@@ -14,24 +14,27 @@ SQL is the language used to interact with databases, allowing users to create, m
 To create our database with SQLAlchemy, we will use models which inherit from a base python class provided by SQLAlchemy that allows for operations between the model and the database table. 
 For example, here is the model for the Session table:
 
-> `class Session(db.Model):
->    __tablename__ = "sessions"
->    session_id = db.Column(db.Integer, primary_key = True)
->    date = db.Column(db.Date)
->    is_active = db.Column(db.Boolean, default = False)
->    is_scheduled = db.Column(db.Boolean, default = True)
->    patient_id = db.Column(db.Integer, db.ForeignKey("patient_list.patient_id"))
->     cardio_id = db.Column(db.Integer, db.ForeignKey("cardio.cardio_id"))
->     mobility_id = db.Column(db.Integer, db.ForeignKey("mobility.mobility_id"))
->     squat_lunge_id = db.Column(db.Integer, db.ForeignKey("squat_lunge.squat_lunge_id"))
->     push_id = db.Column(db.Integer, db.ForeignKey("push.push_id"))
->     pull_id = db.Column(db.Integer, db.ForeignKey("pull.pull_id"))
->     hinge_id = db.Column(db.Integer, db.ForeignKey("hinge.hinge_id"))
->     carry_id = db.Column(db.Integer, db.ForeignKey("carry.carry_id"))
->     core_id = db.Column(db.Integer, db.ForeignKey("core.core_id"))
->     stretch_id = db.Column(db.Integer, db.ForeignKey("stretch.stretch_id"))
->     heart_rate_id = db.Column(db.Integer, db.ForeignKey("heart_rate.heart_rate_id"))
->     patient = db.relationship("Patient", back_populates = "sessions")`
+```
+class Session(db.Model):
+    __tablename__ = "sessions"
+    session_id = db.Column(db.Integer, primary_key = True)
+    date = db.Column(db.Date)
+    is_active = db.Column(db.Boolean, default = False) 
+    is_scheduled = db.Column(db.Boolean, default = True) 
+    patient_id = db.Column(db.Integer, db.ForeignKey("patient_list.patient_id"))
+    cardio_id = db.Column(db.Integer, db.ForeignKey("cardio.cardio_id"))
+    mobility_id = db.Column(db.Integer, db.ForeignKey("mobility.mobility_id"))
+    squat_lunge_id = db.Column(db.Integer, db.ForeignKey("squat_lunge.squat_lunge_id"))
+    push_id = db.Column(db.Integer, db.ForeignKey("push.push_id"))
+    pull_id = db.Column(db.Integer, db.ForeignKey("pull.pull_id"))
+    hinge_id = db.Column(db.Integer, db.ForeignKey("hinge.hinge_id"))
+    carry_id = db.Column(db.Integer, db.ForeignKey("carry.carry_id"))
+    core_id = db.Column(db.Integer, db.ForeignKey("core.core_id"))
+    stretch_id = db.Column(db.Integer, db.ForeignKey("stretch.stretch_id"))
+    heart_rate_id = db.Column(db.Integer, db.ForeignKey("heart_rate.heart_rate_id"))
+
+    patient = db.relationship("Patient", back_populates = "sessions")
+```
 
 ForeignKey() defines a dependency between two columns of different tables, establishing a relationship between the tables. For example, `patient_id = db.Column(db.Integer, db.ForeignKey("patient_list.patient_id"))` tells us that there's a column with type Integer in the patient_list table named patient_id and is related to the primary key in the Session table.
 
@@ -44,22 +47,23 @@ If you want to be able to visualize your database, SQLite Viewer is a useful VSC
 # Flask-WTForms 
 WTForms will allow us to take inputs for creating new data or updating existing data. 
 Start off by creating forms which mirrors the corresponding model, excluding any fields which don’t require user input. For example, almost all of the exercise types have models defined as such: 
-
-> `class Push(db.Model):
->    __tablename__ = "push"
->    push_id = db.Column(db.Integer, primary_key = True)
->    exercise_name = db.Column(db.String)
->    reps = db.Column(db.Integer, default = 0)
->    target_reps = db.Column(db.Integer)
->    weight_lbs = db.Column(db.Float)
->    sessions = db.relationship("Session", backref = backref("push"))`
- 
+```
+class Push(db.Model):
+    __tablename__ = "push"
+    push_id = db.Column(db.Integer, primary_key = True)
+    exercise_name = db.Column(db.String)
+    reps = db.Column(db.Integer, default = 0)
+    target_reps = db.Column(db.Integer)
+    weight_lbs = db.Column(db.Float)
+    sessions = db.relationship("Session", backref = backref("push"))
+```
 However, we wouldn’t want the user to manually define the primary key, and we can implement a method to automatically update the reps completed. Additionally, defining a relationship between tables isn't a field which users can input, so our corresponding form doesn’t include these fields: 
-
-> `class PushForm(FlaskForm):
->    exercise_name = StringField('Push Exercise Name')
->    target_reps = IntegerField('Target Reps', validators=[Optional()])
->    weight_lbs = FloatField('Weight (lbs)', validators=[Optional()])`
+```
+class PushForm(FlaskForm):
+    exercise_name = StringField('Push Exercise Name')
+    target_reps = IntegerField('Target Reps', validators=[Optional()])
+    weight_lbs = FloatField('Weight (lbs)', validators=[Optional()])
+```
 
 # Breaking down the Flask App
 If you want to learn how to create a flask app yourself, [this is a great resource](https://realpython.com/flask-project/) 
