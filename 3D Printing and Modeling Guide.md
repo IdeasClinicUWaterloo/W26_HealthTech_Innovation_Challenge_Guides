@@ -35,19 +35,19 @@ Parts produced by FDM printers are naturally anisotropic, which means that their
 Although this varies from procedure to process, the top or upward-facing surfaces of a 3D-printed component will often have the best surface polish. The extrusion tip smoothes the top surface in FDM, the surface that encounters the print bed is typically glossy, and the surfaces above support structures contain support marks.
 ### 3.2.	Supports
 Generally, whatever auto support option the slicing program offers should be plenty for setting up your 3D print. You should still be aware of the following, though:
-•	Each layer in FDM printing is created as a collection of heated filament threads that stick to the threads surrounding and beneath it. 
-•	By printing each thread slightly offset from its preceding layer, a model can be constructed up to 45-degree angles. This allows prints to grow wider than the previous filament layers.
-•	A feature may sag enough to possibly destroy the print if the overhang is more than 45 degrees. Support structures are necessary at this point.
+- Each layer in FDM printing is created as a collection of heated filament threads that stick to the threads surrounding and beneath it. 
+- By printing each thread slightly offset from its preceding layer, a model can be constructed up to 45-degree angles. This allows prints to grow wider than the previous filament layers.
+- A feature may sag enough to possibly destroy the print if the overhang is more than 45 degrees. Support structures are necessary at this point.
 
 <img width="672" height="189" alt="image" src="https://github.com/user-attachments/assets/c6804721-73bd-4d6a-a61a-eb4d8da35c7f" />
 
 Imagine you are 3D printing models of the letters Y, H, and T:
-•	The arms of the letter Y can be readily printed on an FDM printer without the need for support structures.
-o	These features are outstretched, but they don’t go beyond 45 degrees.
-•	It’s a little trickier with the letter H because if the middle bridge is less than 5mm, it can be printed without sagging or support.
-o	Support is required if the bridge is more than 5mm.
-•	The top features that protrude from either side of the model must be supported for the letter T.
-o	Without any supports, the material will collapse because there is nothing to print these arms on. 
+- The arms of the letter Y can be readily printed on an FDM printer without the need for support structures.
+- o	These features are outstretched, but they don’t go beyond 45 degrees.
+- It’s a little trickier with the letter H because if the middle bridge is less than 5mm, it can be printed without sagging or support.
+- o	Support is required if the bridge is more than 5mm.
+- The top features that protrude from either side of the model must be supported for the letter T.
+- o	Without any supports, the material will collapse because there is nothing to print these arms on. 
 
 <img width="511" height="140" alt="image" src="https://github.com/user-attachments/assets/4257e37a-14bd-47ce-a3d0-9e27c1be0613" />
 
