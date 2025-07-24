@@ -43,11 +43,11 @@ Generally, whatever auto support option the slicing program offers should be ple
 
 Imagine you are 3D printing models of the letters Y, H, and T:
 - The arms of the letter Y can be readily printed on an FDM printer without the need for support structures.
-- o	These features are outstretched, but they don’t go beyond 45 degrees.
+  - These features are outstretched, but they don’t go beyond 45 degrees.
 - It’s a little trickier with the letter H because if the middle bridge is less than 5mm, it can be printed without sagging or support.
-- o	Support is required if the bridge is more than 5mm.
+  - Support is required if the bridge is more than 5mm.
 - The top features that protrude from either side of the model must be supported for the letter T.
-- o	Without any supports, the material will collapse because there is nothing to print these arms on. 
+  - Without any supports, the material will collapse because there is nothing to print these arms on. 
 
 <img width="511" height="140" alt="image" src="https://github.com/user-attachments/assets/4257e37a-14bd-47ce-a3d0-9e27c1be0613" />
 
