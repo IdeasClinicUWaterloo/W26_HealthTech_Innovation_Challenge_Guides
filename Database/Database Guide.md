@@ -2,7 +2,7 @@ To create a database, we will be using sqlalchemy to interact with sqlite, a dat
 # SQL Database Structures
 This content was adapted from [this tutorial](https://realpython.com/python-sqlite-sqlalchemy/#structuring-a-database-with-sql) which can provide more in-depth explanations! 
 
-SQLite is used to create and manage relational databases store data into tables and establish relationships between these tables. Each table have rows of records, and each record is made up of columns/fields which contain data and a primary key which is used as a unique identifier for the record. These primary keys are automatically created as an incrementing integer value by SQLite. 
+SQLite is used to create and manage relational databases, store data into tables, and establish relationships between these tables. Each table have rows of records, and each record is made up of columns/fields which contain data and a primary key which is used as a unique identifier for the record. These primary keys are automatically created as an incrementing integer value by SQLite. 
 
 Relationships can be used to easily group data together even when they’re broken up between different tables. 
 
