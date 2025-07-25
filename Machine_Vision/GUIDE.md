@@ -32,6 +32,6 @@ Tensorflow:
 You can use the `requirements.txt` file in this folder and run this one-line command in the terminal: `pip install -r requirements.txt`
 
 ## 3. Computer Vision Basics
-Refer to the github page from the [Winter 2025 HealthTech Inovation Challenge](Computer_Vision/GUIDE.md) for a beginners guide to OpenCV and Mediapipe
+Refer to the github page from the [Winter 2025 HealthTech Inovation Challenge](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/4b4f367f191157d8503dc93de521de78b7b8d533/Computer_Vision/GUIDE.md) for a beginners guide to OpenCV and Mediapipe
 
 ## 4. Machine Learning
