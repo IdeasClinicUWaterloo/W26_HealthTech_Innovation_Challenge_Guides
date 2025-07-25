@@ -1,13 +1,13 @@
 # Machine Vision: Integrating Machine Learning with OpenCV and MediaPipe
 ## Table of Contents
-1. [Introduction](1.)
-2. [Installation](2.)
-   2.1. [Download Python](2.1)
-   2.2. [Creating Virtual Environments](2.2)
-   2.3. [Install Python Libraries](2.3)
-   2.4. [Jupyter Notebook](2.4)
-3. [Computer Vision Basics](3.)
-4. [Machine Learning](4.)
+###1. [Introduction](#1.)
+###2. [Installation](#2.)
+   2.1. [Download Python](#2.1)
+   2.2. [Creating Virtual Environments](#2.2)
+   2.3. [Install Python Libraries](#2.3)
+   2.4. [Jupyter Notebook](#2.4)
+###3. [Computer Vision Basics](#3.)
+###4. [Machine Learning](#4.)
 
 ## 1. Introduction
 This guide will walk you through a machine learning (ML) model that you can train to identify exercises in combination with Google's Mediapipe and OpenCV. This ML model is an LSTM (long short-term memory) model, which can make predictions from sequences of data. 
