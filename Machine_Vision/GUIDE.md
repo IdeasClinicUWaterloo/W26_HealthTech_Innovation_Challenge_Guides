@@ -9,7 +9,8 @@ This guide will walk you through a machine learning (ML) model that is trained t
 ## 2. Installation
 2.1 Download Python (versions 3.9 - 3.12)
 * Currently, Mediapipe is only supported on python versions 3.9 to 3.12.
-* You can download a compatible version of python [here] (https://www.python.org/downloads/).
+* You can download a compatible version of python (here) [https://www.python.org/downloads/].
+
 2.2 Creating Virtual Environments
 A Python virtual environment (venv) is a self-contained directory that allows you to install packages and dependencies for a specific project without affecting the global Python installation or other projects.
 1. Download the starter code contained in this folder (it is recommended you use git to download and share these files)
@@ -21,7 +22,8 @@ A Python virtual environment (venv) is a self-contained directory that allows yo
    * for Windows users: name-of-your-venv/Scripts/activate
    * When prompted, type R and then enter to run once
    * you should now see (name-of-your-venv) being appended to your input prompt, indicating that you have activated your venv
-2.3: Install Python Libraries
+
+2.3 Install Python Libraries
 OpenCV: For handling image and video processing.
 MediaPipe Solutions: For real-time computer vision tasks such as pose estimation, hand tracking, and face detection.
 Numpy: For matrix and array operations.
