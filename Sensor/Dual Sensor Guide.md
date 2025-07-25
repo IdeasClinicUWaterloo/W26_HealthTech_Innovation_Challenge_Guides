@@ -10,7 +10,7 @@ In order to utilize 2 accelerometers, the sensors need to have different address
 
 Unfortunately, the DFRobot BMX160 Library in Arduino does not have a designated function to allow for the definition of 2 different addresses, as the address 0x68 is hard-coded in. To change this, we’ll have to modify the library itself.
 1.	Navigate to the Arduino library. This will likely be in "C:\Users\Username\Documents\Arduino\libraries\DFRobot_BMX160"
-2.	Open “DFRobot_BMX160.cpp” and “DFRobot_BMX160.h” in a code editor. If you don't have a code editor already installed, you can (download VSCode here!)[https://code.visualstudio.com/download]
+2.	Open “DFRobot_BMX160.cpp” and “DFRobot_BMX160.h” in a code editor. If you don't have a code editor already installed, you can [download VSCode here!](https://code.visualstudio.com/download)
 3.	In the .cpp file, find the begin() function and make the following changes below. Make sure to save! 
 
 Original:
