@@ -2,9 +2,15 @@
 ## Table of Contents
 1. [Introduction](1.)
 2. [Installation](2.)
+   2.1. [Download Python](2.1)
+   2.2. [Creating Virtual Environments](2.2)
+   2.3. [Install Python Libraries](2.3)
+   2.4. [Jupyter Notebook](2.4)
+3. [Computer Vision Basics](3.)
+4. [Machine Learning](4.)
 
 ## 1. Introduction
-This guide will walk you through a machine learning (ML) model that is trained to identify exercises in combination with Google's Mediapipe and OpenCV. This ML model is an LSTM (long short-term memory) model, which can make predictions from sequences of data. 
+This guide will walk you through a machine learning (ML) model that you can train to identify exercises in combination with Google's Mediapipe and OpenCV. This ML model is an LSTM (long short-term memory) model, which can make predictions from sequences of data. 
 
 ## 2. Installation
 2.1 Download Python (version 3.9 - 3.12)
@@ -31,7 +37,16 @@ Tensorflow:
 
 You can use the `requirements.txt` file in this folder and run this one-line command in the terminal: `pip install -r requirements.txt`
 
+2.4 Jupyter Notebook
+Jupyter Notebook is used for machine learning becuase it provides an interactive environment where you can write and run code in small chunks, visualize data and document your process all in one location.
+Follow this guide for using [Jupyter Notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) in VSCode
+
+
 ## 3. Computer Vision Basics
 Refer to the github page from the [Winter 2025 HealthTech Inovation Challenge](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/4b4f367f191157d8503dc93de521de78b7b8d533/Computer_Vision/GUIDE.md) for a beginners guide to OpenCV and Mediapipe
 
 ## 4. Machine Learning
+*
+* There are three core machine learning types: supervised learning, unsupervised learning and reinforcement learning.
+* The model provided in this folder `(name of file)` is a supervised learning algorithm.
+    * This means that the data used to train the model was labelled before 
