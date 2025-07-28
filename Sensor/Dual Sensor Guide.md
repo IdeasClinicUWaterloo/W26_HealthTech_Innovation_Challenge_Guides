@@ -59,7 +59,7 @@ Now that the library has been modified, the begin function will set an address f
     while (1);
   }
 ```
-
+When wiring your sensors into the Arduino, make sure that the accelerometers are plugged into I2C terminals. This will require the use of either a breadboard or female-to-female jumper wires as you need to ensure that the wires are all connected to the same ports (VCC to VCC, GND to GND, etc.) 
 ## 3. Using Dual Sensors for Exercise Tracking
 One effective application for these sensors is measuring the angle between two segments at a joint, allowing them to be used as a device for tracking range of motion. 
 
