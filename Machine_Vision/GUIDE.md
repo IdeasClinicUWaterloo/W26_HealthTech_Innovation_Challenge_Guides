@@ -8,6 +8,7 @@
    - 2.4. [Jupyter Notebook](#2.4)
 ### 3. [Computer Vision Basics](#3)
 ### 4. [Machine Learning](#4)
+   - 4.1 [LSTM](#4.1)
 
 <h2 id = '1'> 1. Introduction</h2>
 
@@ -50,10 +51,17 @@ Jupyter Notebook is used for machine learning becuase it provides an interactive
 
 
 <h2 id = '3'> 3. Computer Vision Basics</h2>
-Refer to the github page from the [Winter 2025 HealthTech Inovation Challenge](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/4b4f367f191157d8503dc93de521de78b7b8d533/Computer_Vision/GUIDE.md) for a beginners guide to OpenCV and Mediapipe
+
+Refer to the tech stack from the Winter 2025 [Health Tech Innovation Challenge](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/tree/4b4f367f191157d8503dc93de521de78b7b8d533/Computer_Vision) for a beginners guide to OpenCV and Mediapipe.
 
 <h2 id = '4'> 4. Machine Learning</h2>
 
-* There are three core machine learning types: supervised learning, unsupervised learning and reinforcement learning.
-* The model provided in this folder `(name of file)` is a supervised learning algorithm.
-    * This means that the data used to train the model was labelled before 
+- Machine Learning (ML) is a branch of AI that teaches systems to think and understand like humans by learning from the data.
+     - Trained ML models must be integrated into an application to make its predictions accessible.
+- There are three core machine learning types: supervised learning, unsupervised learning and reinforcement learning.
+- The model provided in this folder `(name of file)` is a supervised learning algorithm.
+     - This means that the data used to train the model was labelled before running it through the model.
+     - 
+
+<h3 id = '4.1'> 4.1 LSTM</h3>
+
