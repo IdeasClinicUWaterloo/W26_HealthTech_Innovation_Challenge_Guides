@@ -8,7 +8,7 @@
    - 2.4. [Jupyter Notebook](#2.4)
 ### 3. [Computer Vision Basics](#3)
 ### 4. [Machine Learning](#4)
-   - 4.1 [LSTM](#4.1)
+   - 4.1 [The Provided ML Model](#4.1)
 
 <h2 id = '1'> 1. Introduction</h2>
 
@@ -16,7 +16,7 @@ This guide will walk you through a machine learning (ML) model that you can trai
 
 <h2 id = '2'> 2. Installation</h2>
 
-<h3 id = '2.1'> 2.1 Download Python (version 3.9 - 3.12)</h3>
+<h3 id = '2.1'> 2.1 Download Python (version 3.9 - 3.11)</h3>
 
 * Currently, Mediapipe is only supported on python versions 3.9 to 3.12.
 * You can download a compatible version of python [here](https://www.python.org/downloads/).
@@ -30,6 +30,7 @@ A Python virtual environment (venv) is a self-contained directory that allows yo
 3. Create a venv:
    - Enter `python -m venv *name-of-your-venv*` in the same terminal. This should create a new folder with the name of your venv under the "Computer Vision" directory
 4. Activate the venv:
+   - You might get a prompt in VSCode after creating the venv, asking if you want to use the new venv for your project. If you select yes, you don't need to do the following.
    - for Mac/Linux users: `source ./name-of-your-venv/bin/activate`
    - for Windows users: `name-of-your-venv/Scripts/activate`
    - When prompted, type R and then enter to run once
@@ -40,7 +41,7 @@ A Python virtual environment (venv) is a self-contained directory that allows yo
 - **OpenCV**: For handling image and video processing.
 - **MediaPipe Solutions**: For real-time computer vision tasks such as pose estimation, hand tracking, and face detection.
 - **Numpy**: For matrix and array operations.
-- **Tensorflow**:
+- **Tensorflow**: For building and training machine learning models (specifically deep learning).
 
 You can use the `requirements.txt` file in this folder and run this one-line command in the terminal: `pip install -r requirements.txt`
 
@@ -56,12 +57,45 @@ Refer to the tech stack from the Winter 2025 [Health Tech Innovation Challenge](
 
 <h2 id = '4'> 4. Machine Learning</h2>
 
-- Machine Learning (ML) is a branch of AI that teaches systems to think and understand like humans by learning from the data.
-     - Trained ML models must be integrated into an application to make its predictions accessible.
+Machine Learning (ML) is a branch of AI that teaches systems to think and understand like humans by learning from the data.
+- Trained ML models must be integrated into an application to make its predictions accessible.
 - There are three core machine learning types: supervised learning, unsupervised learning and reinforcement learning.
 - The model provided in this folder `(name of file)` is a supervised learning algorithm.
      - This means that the data used to train the model was labelled before running it through the model.
-     - 
 
-<h3 id = '4.1'> 4.1 LSTM</h3>
+<h3 id = '4.1'> 4.1 The Provided ML Model</h3>
+
+The model provided is trained to recognize three exercises using your webcam: bicep curls, shoulder presses, and squats.
+- notes...
+
+<h3 id = '4.2'> 4.2 Running the Model</h3>
+
+There is a ML workflow which guides development and deployment of ML models, consisting of various steps. Here are some of the steps which you will be concerned with regarding this model.
+1. Data Collection
+   - There are already some videos in the `data` folder/directory for the three exercises.
+   - You can stick with these exercises, or you can choose different exercises.
+   - There is a list of exercises that CCCare typically "prescribes" participants (put file location here), you are free to choose exercises from that list.
+   - Requirements if you are selecting your own data:
+        - Videos must be .MP4 format.
+        - Make sure that the video shows at least **two** repetitions of the exercise.
+        - Ensure that you get videos of the exercise from various angles (not just front facing videos).
+2. Data Cleaning and Preprocessing
+   - Data cleaning: addressing issues such as missing values, outliers and inconsistencies.
+   - Data preprocessing: standardizing formats, scaling data, encoding categorical variables for consistency.
+   - {Summarize what the code is doing}
+        - The data should be formatted as sequences of mediapipe keypoint coordinates (x, y, z positions) extracted for each exercise.
+3. Model Selection
+   - This classifier is a long short-term memory (LSTM) model.
+   - LSTMs are mainly used in cases where remembering previous information is important, like analyzing sequences of body movements.
+4. Model Training
+   - {summarize code}
+5. Model Evaluation and Tuning
+    - {summarize code}
+6. Model Deployment
+   - how to deploy model
+
+For more information on the machine learning workflow check out this [link](https://www.geeksforgeeks.org/machine-learning/machine-learning-lifecycle/)!
+
+
+
 
