@@ -4,7 +4,7 @@ Welcome to a mini guide on 3D modeling and 3D printing! This guide will walk you
 ## 2.	SolidWorks
 
 ### 2.1.	SolidWorks Installation
-If you already have a version of SolidWorks installed, you can skip this section. However, if you do not, refer to this document (LINK) to install the latest version (2026). 
+If you already have a version of SolidWorks installed, you can skip this section. However, if you do not, refer to this document (LINK to doc on LEARN page) to install the latest version (2026). 
 ### 2.2.	Creating a New Sketch
 After the SolidWorks download is complete, click "Part" to start building your 3D model.
 
@@ -19,7 +19,7 @@ Once you are finished with your 3D model, save and export it as an STL (*.stl) f
 ## 3.	3D Printing
 The type of printers being used in this workshop, use a 3D printing process called Fused Deposition Modeling (FDM) printing, in which a thermoplastic filament is melted and extruded through a nozzle to build objects layer by layer. 
 ### 3.1.	Print Orientation
-One an important factor that you should consider before you 3D print your part is part orientation (also called build orientation). How you orient your parts in the printer will play a significant role in delivering the final quality you want. For this overview, consider a cylinder with its center axis vertical. 
+One important factor that you should consider before you 3D print your part is part orientation (also called build orientation). How you orient your parts in the printer will play a significant role in delivering the final quality you want. For this overview, consider a cylinder with its center axis vertical. 
 
 
 #### 3.1.1.	Accuracy
