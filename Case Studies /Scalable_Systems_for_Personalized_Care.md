@@ -12,4 +12,4 @@ Unfortunately, Access cannot be integrated with other clinical software or visua
 More information on dosages & exercise sessions can be found [here](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef)
 
 ## The Challenge
-Design a sccalble system that makes it easier to prescribe, adjust, store, and share exercise doses efficiently.
+Design a scalable system that makes it easier to prescribe, adjust, store, and share exercise doses efficiently.
