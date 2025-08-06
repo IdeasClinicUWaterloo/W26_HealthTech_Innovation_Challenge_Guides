@@ -72,9 +72,9 @@ The model provided is trained to recognize three exercises using your webcam: bi
 
 There is a ML workflow which guides development and deployment of ML models, consisting of various steps. Here are some of the steps which you will be concerned with regarding this model.
 1. Data Collection
-   - There are already some videos in the `data` folder/directory for the three exercises.
+   - There are already some videos in the [data](Machine_Vision/data) folder/directory for the three exercises.
    - You can stick with these exercises, or you can choose different exercises.
-   - There is a list of exercises that CCCare typically "prescribes" participants (put file location here), you are free to choose exercises from that list.
+   - There is a list of exercises that CCCare typically "prescribes" participants (put file location here), you are free to choose exercises from that list [here](Machine_Vision/Sample_Exercises_and_Categories.pdf).
    - Requirements if you are selecting your own data:
         - Videos must be .MP4 format.
         - Make sure that the video shows at least **two** repetitions of the exercise.
