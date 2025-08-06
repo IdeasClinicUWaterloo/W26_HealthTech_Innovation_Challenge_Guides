@@ -8,8 +8,7 @@
    - 2.4. [Jupyter Notebook](#2.4)
 ### 3. [Computer Vision Basics](#3)
 ### 4. [Machine Learning](#4)
-   - 4.1 [The Provided ML Model](#4.1)
-   - 4.2 [Running the Model](#4.2)
+   - 4.1 [Running the Model](#4.1)
 
 <h2 id = '1'> 1. Introduction</h2>
 
@@ -60,16 +59,10 @@ Refer to the tech stack from the Winter 2025 [Health Tech Innovation Challenge](
 
 Machine Learning (ML) is a branch of AI that teaches systems to think and understand like humans by learning from the data.
 - Trained ML models must be integrated into an application to make its predictions accessible.
-- There are three core machine learning types: supervised learning, unsupervised learning and reinforcement learning.
-- The model provided in this folder `(name of file)` is a supervised learning algorithm.
-     - This means that the data used to train the model was labelled before running it through the model.
+- The model provided in this folder `exercise_classifier.ipynb` can be trained to recognize three exercises using your webcam: bicep curls, shoulder presses, and squats.
+   - Follow the steps below to learn more about using this model for your projects.
 
-<h3 id = '4.1'> 4.1 The Provided ML Model</h3>
-
-The model provided is trained to recognize three exercises using your webcam: bicep curls, shoulder presses, and squats.
-- Follow the steps below to learn more about using this model for your projects.
-
-<h3 id = '4.2'> 4.2 Running the Model</h3>
+<h3 id = '4.1'> 4.1 Running the Model</h3>
 
 There is a ML workflow which guides development and deployment of ML models, consisting of various steps. Here are some of the steps which you will be concerned with regarding this model.
 1. Data Collection
@@ -83,7 +76,6 @@ There is a ML workflow which guides development and deployment of ML models, con
 2. Data Cleaning and Preprocessing
    - Data cleaning: addressing issues such as missing values, outliers and inconsistencies.
    - Data preprocessing: standardizing formats, scaling data, encoding categorical variables for consistency.
-   - {Summarize what the code is doing}
         - The data should be formatted as sequences of mediapipe keypoint coordinates (x, y, z positions) extracted for each exercise.
 3. Model Selection
    - This classifier is a long short-term memory (LSTM) model.
