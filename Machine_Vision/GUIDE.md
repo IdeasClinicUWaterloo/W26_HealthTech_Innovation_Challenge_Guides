@@ -67,7 +67,7 @@ Machine Learning (ML) is a branch of AI that teaches systems to think and unders
 <h3 id = '4.1'> 4.1 The Provided ML Model</h3>
 
 The model provided is trained to recognize three exercises using your webcam: bicep curls, shoulder presses, and squats.
-- notes...
+- Follow the steps below to learn more about using this model for your projects.
 
 <h3 id = '4.2'> 4.2 Running the Model</h3>
 
