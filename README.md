@@ -1,15 +1,18 @@
 # Welcome to the 2026 Health Tech Innovation Challenge!
 ## Geriatric Exercise Case Study
-Congratulations! You recently joined the Centre for Community, Clinical & Applied Research Excellence (CCCARE) and are tasked with optimizing some of their day-to-day operations. CCCARE's mission is to improve the overall health of individuals in the community and help these indviduals manage illness and injury. They offer general exercise programs as well as more tailored ones for those being treated for or recovering from cancer, those experiencing effects from stroke, and any patients who have "graduated" from these programs but wish to continue using the facility.
+Congratulations! You have recently joined the Centre for Community, Clinical & Applied Research Excellence (CCCARE) and have been tasked with streamlining some of their daily operations. CCCARE’s mission is to enhance the health of people in the community and support individuals as they manage illness or recover from injury. They run general exercise programs, as well as specialized sessions for people undergoing or recovering from cancer treatment, stroke survivors, and patients who have completed earlier programs but wish to continue using the facility.
 
-Your team is tasked with coming up with ways CCCARE could improve their delivery of care so that they can scale their operations. You have been chosen for your ability to problem solve and innovate while working in an interdisciplinary team. Here are the three main areas which CCCARE has identified this problem space can be approached from:
-- Scaling the storage and/or adjustment of exercise plans for each patient
-- Remote at-home care in order to reach more patients and encourage graduated patients to move towards self-directed exercise
-- Excercise tracking and measurement to monitor the quality of patients' activity
+Your team’s challenge is to develop ways for CCCARE to improve how they deliver care and scale their services. You’ve been selected for your strong problem-solving skills and your ability to innovate within an interdisciplinary team. CCCARE has identified three main focus areas for potential improvements:
 
-You have been given the freedom to dive deeper into one of these categories or to come up with a unique way to tackle the issues of geriatric exercise. As long as you stay relevant to the problem space, the sky is the limit!
+Expanding and managing the individualized exercise plans for each client
 
-But hurry! You must get started on your solution quickly since CCCARE is hosting an event where all the investors will be present. These investors are itching for new ideas, so if you want to pitch an idea your team must produce a proof-of-concept prototype in two days to pitch.
+Supporting remote, at-home care to reach more people and help graduates of the programs transition to self-managed exercise
+
+Tracking and assessing exercise activity to ensure quality and progress for all participants
+
+You are encouraged to explore one of these focus areas in depth or develop your own innovative solution related to exercise for older adults. As long as your ideas are relevant to the overall challenges, you have creative freedom!
+
+However, time is of the essence—CCCARE is hosting an upcoming event attended by potential investors who are eager to hear new ideas. If you'd like to present your concept, your team must develop a proof-of-concept prototype within the next two days for the pitch.
 ## Prototype Resources
 For help on approaching the aforementioned case study categories, see the links below directing you to step-by-step guides on how to implement various tools into your solution.
 - [Wearable Design and 3D-Printing Considerations](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/3D_Printed_Wearable/GUIDE.md)
