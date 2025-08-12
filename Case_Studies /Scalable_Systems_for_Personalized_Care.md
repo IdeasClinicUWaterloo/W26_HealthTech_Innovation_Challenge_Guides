@@ -1,11 +1,11 @@
 # Scalable Systems for Personalized Care
-At CCCARE, participants receive a personalized exercise plan (referred to as a "dosage") which specifies the amount and type of physical activity designed to meet their needs – this plan is constantly adjusted. Initial assessments carried out by Kinesiologists or Clinical Exercise Physiologists determine the starting point for each participant based on their current physical ability, medical history, and personal goals.   
+At CCCARE, participants receive a personalized exercise plan (referred to as a "dosage") which specifies the amount and type of physical activity designed to meet their needs – this plan is constantly adjusted. Initial assessments carried out by Kinesiologists, rehabilitation or other health professionals determine the starting point for each participant based on their current physical ability, medical history, and personal goals.   
 
 Patients’ exercise history and data must be consulted when adjusting exercise plans. Currently, CCCARE stores data using a mix of digital and paper-based systems: 
 - exercise logs are stored on paper
 - appointments are scheduled using AirTable
 - intake assessments are written on paper and manually input into a Microsoft Access database by staff
-- referrals from Grand River Hospital are sent in by fax which requires manual entry into the database
+- referrals from the Waterloo Regional Health Network (WRHN) are sent in by fax which requires manual entry into the database
   
 Unfortunately, Access cannot be integrated with other clinical software or visualize data, hindering data sharing and coordination.
 
