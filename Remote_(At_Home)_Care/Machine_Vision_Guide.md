@@ -100,6 +100,7 @@ There is a ML workflow which guides development and deployment of ML models, con
 
 For more information on the machine learning workflow check out this [link](https://www.geeksforgeeks.org/machine-learning/machine-learning-lifecycle/)!
 
+You can find videos for your data at [Kaggle](https://www.kaggle.com/) or use this [dataset from Kaggle](https://www.kaggle.com/datasets/hasyimabdillah/workoutfitness-video).
 
 
 
