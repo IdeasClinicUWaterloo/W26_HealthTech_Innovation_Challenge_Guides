@@ -1,7 +1,7 @@
 # Dual Sensor Guide
 
 ## 1. Introduction
-For a general start up guide on sensors, refer to [this guide from last year!](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/blob/main/Dashboard/GUIDE.md)
+For a general start up guide on sensors, refer to [this guide](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/tree/main/sensors)
 
 ## 2. Sensor Setup
 In order to utilize 2 accelerometers, the sensors need to have different addresses for the Arduino to recognize that data is coming from different sources. The address pin is found on the back of the sensor. By soldering over the address pin (left) on one of the accelerometers, this will change its address from 0x68 to 0x69. 
