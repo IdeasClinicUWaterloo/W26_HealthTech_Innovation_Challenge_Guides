@@ -3,6 +3,8 @@ Created by: Engineering IDEAs Clinic Co-op Students
 ## Geriatric Exercise Case Study
 Congratulations! You have recently joined the **Centre for Community, Clinical & Applied Research Excellence (CCCARE)** and have been tasked with streamlining some of their daily operations. CCCARE’s mission is to enhance the health of people in the community and support individuals as they manage illness or recover from injury. They run general exercise programs, as well as specialized sessions for people undergoing or recovering from cancer treatment, stroke survivors, and patients who have completed earlier programs but wish to continue using the facility.
 
+More information on dosages & exercise sessions can be found [here](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef). 
+
 ## Your Mission
 
 Your team at **CCCARE** have been tasked to develop ways for CCCARE to **improve how they deliver care and scale their services**. You’ve been selected for your strong problem-solving skills and your ability to innovate within an interdisciplinary team. CCCARE has identified three main focus areas for potential improvements:
@@ -47,7 +49,3 @@ CCCARE wants to provide remote care for patients because the in-person programs 
 ### Challenge
 
 Design a system that ensures patients are completing the correct exercises and adhering to their treatment plans at home. [Machine Vision](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/GUIDE.md) files offer a step-by-step guide on how to implement various tools into your solution.
-
-
-More information on dosages & exercise sessions can be found [here](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef). 
-
