@@ -1,5 +1,9 @@
 # Remote (At Home) Care
-CCCARE wants to provide remote care for patients because the in-person programs have limited capacity, and they would like to encourage graduated participants to rely less on the facility. Some patients on the waitlist cannot physically attend due to medical constraints, leading to less than 10% of stroke and cancer patients from GRH receiving treatment at CCCARE. Moving towards remote treatment allows for the treatment of far more people at once without worrying about space or class size and provides graduates with support and community as they shift to more independent exercise. However, CCCARE is concerned with ensuring participants are getting safe and effective exercise.
+CCCARE aims to expand its programs by offering remote care options for patients. Currently, in-person sessions have limited capacity, and the organization hopes to encourage graduated participants to become more independent while still receiving guidance and support. Additionally, many patients on the waitlist face medical or mobility challenges that prevent them from attending in person — resulting in fewer than 10% of stroke and cancer patients from GRH accessing CCCARE’s services.
+
+By moving toward remote treatment, CCCCARE can reach a larger number of patients simultaneously, overcoming space and scheduling constraints. This approach would also help graduates maintain a sense of connection and continuity as they transition to self-directed exercise.
+
+However, CCCCARE’s primary concern is ensuring that participants are performing exercises safely, effectively, and in accordance with their prescribed treatment plans.
 
 ## The Challenge 
 Design a system that ensures patients are completing the correct exercisees and adhering to their treatment plans **at home**.
