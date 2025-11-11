@@ -1,7 +1,9 @@
 # Scalable Systems for Personalized Care
-At CCCARE, participants receive a personalized exercise plan (referred to as a "dosage") which specifies the amount and type of physical activity designed to meet their needs – this plan is constantly adjusted. Initial assessments carried out by Kinesiologists, rehabilitation or other health professionals determine the starting point for each participant based on their current physical ability, medical history, and personal goals.   
+At CCCARE, each participant receives a personalized exercise plan—referred to as a dosage—that specifies the type and amount of physical activity best suited to their individual needs. These plans are continuously adjusted based on progress and feedback.
 
-Patients’ exercise history and data must be consulted when adjusting exercise plans. Currently, CCCARE stores data using a mix of digital and paper-based systems: 
+Initial assessments are performed by Kinesiologists and other rehabilitation professionals, who determine each participant’s starting point by evaluating their physical ability, medical history, and personal goals. To ensure that adjustments are effective, instructors must be able to easily access and review each patient’s exercise history and performance data.
+
+Currently, CCCCARE relies on a hybrid data management system combining both digital and paper-based methods:
 - exercise logs are stored on paper
 - appointments are scheduled using AirTable
 - intake assessments are written on paper and manually input into a Microsoft Access database by staff
