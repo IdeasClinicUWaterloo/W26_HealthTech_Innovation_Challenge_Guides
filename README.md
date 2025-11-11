@@ -13,32 +13,26 @@ Your team at **CCCARE** have been tasked to develop ways for CCCARE to **improve
 
 You are encouraged to explore one of these focus areas in depth or develop your own innovative solution related to exercise for older adults. As long as your ideas are relevant to the overall challenges, you have creative freedom!
 
-However, time is of the essence—CCCARE is hosting an upcoming event attended by potential investors who are eager to hear new ideas. If you'd like to present your concept, your team must develop a proof-of-concept prototype within the next two days for the pitch.
+However, time is of the essence as CCCARE is hosting an upcoming event attended by potential investors who are eager to hear new ideas. If you'd like to present your concept, your team must develop a proof-of-concept prototype within the next two days for the pitch.
 
 
 ---
 
-## Sub-Problems
+### Sub-Problems
 
 ## Scale Personalized Care
 At CCCARE, participants receive a personalized exercise plan (referred to as a “dosage”) which specifies the amount and type of physical activity designed to meet their needs – this plan is constantly adjusted. Initial assessments carried out by Kinesiologists, rehabilitation, or other health professionals determine the starting point for each participant based on their current physical ability, medical history, and personal goals.
 
 Patients’ exercise history and data must be consulted when adjusting exercise plans. Currently, CCCARE stores data using a mix of digital and paper-based systems: exercise logs are stored on paper, appointments are scheduled using AirTable, intake assessments are written on paper and manually input into a Microsoft Access database by staff, and referrals from Waterloo Regional Health Network (WRHN) are sent in by fax which requires manual entry into the database. Unfortunately, Access cannot be integrated with other clinical software or visualize data, hindering data sharing and coordination. 
 
-More information on dosages & exercise sessions can be found [here](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef). 
-
-#### Challenge:
+### Challenge:
 Design a scalable system that makes it easier to prescribe, adjust, store, and share exercise doses efficiently. The [Designing a Database](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Database/GUIDE.md) files offer a step-by-step guide on how to implement various tools into your solution.
 
 ---
 
-### Exercise Tracking and Measurement  
+## Exercise Tracking and Measurement  
 
 In CCCARE, an instructor will work with 10-12 patients in a session. Meanwhile, graduated participants can have up to 30 people in a session with one instructor. Due to minimal supervision, there is no easy way to track each patient as they exercise, therefore some participants may not complete their full dose, while others might overdo it. Student volunteers are available to assist participants who may require extra support, such as patients with dementia and stroke patients. However, as not all participants will have a volunteer working with them one-on-one, there is a need to track the quality of exercises performed so that instructors are able to evaluate the participants’ progress. 
-
- 
-
-More information on dosages & exercise sessions can be found [here](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef).
 
 ### Challenge
 
@@ -46,10 +40,14 @@ Design a system that tracks and measures the quality of patient activity. The [W
 
 ---
 
-### Remote (At Home) Care  
+## Remote (At Home) Care  
 
 CCCARE wants to provide remote care for patients because the in-person programs have limited capacity, and they would like to encourage graduated patients to rely less on the facility. Some patients on the waitlist cannot physically attend due to medical constraints, leading to less than 10% of stroke and cancer patients from GRH receiving treatment at CCCARE. Moving towards remote treatment allows for the treatment of far more people at once without worrying about space or class size and provides graduates with support and community as they shift to more independent exercise. However, CCCARE is concerned with ensuring participants are getting safe and effective exercise. 
 
 ### Challenge
 
 Design a system that ensures patients are completing the correct exercises and adhering to their treatment plans at home. [Machine Vision](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/GUIDE.md) files offer a step-by-step guide on how to implement various tools into your solution.
+
+
+More information on dosages & exercise sessions can be found [here](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef). 
+
