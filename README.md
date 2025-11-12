@@ -34,7 +34,7 @@ Design a scalable system that makes it easier to prescribe, adjust, store, and s
 
 ## Exercise Tracking and Measurement  
 
-In CCCARE, an instructor will work with 10-12 patients in a session. Meanwhile, graduated participants can have up to 30 people in a session with one instructor. Due to minimal supervision, there is no easy way to track each patient as they exercise, therefore some participants may not complete their full dose, while others might overdo it. Student volunteers are available to assist participants who may require extra support, such as patients with dementia and stroke patients. However, as not all participants will have a volunteer working with them one-on-one, there is a need to track the quality of exercises performed so that instructors are able to evaluate the participants’ progress. 
+In CCCARE, an instructor will work with 10-12 patients in a session. Meanwhile, sessions with graduated participants can have up to 30 people per instructor. Due to minimal supervision, there is no easy way to track each patient as they exercise, therefore some participants may not complete their full dose, while others might overdo it. Student volunteers are available to assist participants who may require extra support, such as patients with dementia and stroke patients. However, as not all participants will have a volunteer working with them one-on-one, there is a need to track the quality of exercises performed so that instructors are able to evaluate the participants’ progress. 
 
 ### Challenge
 
