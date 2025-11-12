@@ -1,4 +1,4 @@
-To create a database, we will be using sqlalchemy to interact with sqlite, a database storage engine. WTForms will allow us to take user inputs, and Flask helps tie everything together into a web application along with basic HTML and CSS. 
+To create a database, we will be using SQLAlchemy to interact with sqlite, a database storage engine. WTForms will allow us to take user inputs, and Flask helps tie everything together into a web application along with basic HTML and CSS. 
 # SQL Database Structures
 This content was adapted from [this tutorial](https://realpython.com/python-sqlite-sqlalchemy/#structuring-a-database-with-sql) which can provide more in-depth explanations! 
 
