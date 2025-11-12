@@ -20,7 +20,7 @@ However, time is of the essence as CCCARE is hosting an upcoming event attended 
 
 ---
 
-### Sub-Problems
+## Sub-Problems
 
 ## Scale Personalized Care
 At CCCARE, participants receive a personalized exercise plan (referred to as a “dosage”) which specifies the amount and type of physical activity designed to meet their needs – this plan is constantly adjusted. Initial assessments carried out by Kinesiologists, rehabilitation, or other health professionals determine the starting point for each participant based on their current physical ability, medical history, and personal goals.
