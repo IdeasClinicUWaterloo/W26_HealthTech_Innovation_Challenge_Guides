@@ -44,7 +44,7 @@ Design a system that tracks and measures the quality of patient activity. The [W
 
 ## Remote (At Home) Care  
 
-CCCARE wants to provide remote care for patients because the in-person programs have limited capacity, and they would like to encourage graduated patients to rely less on the facility. Some patients on the waitlist cannot physically attend due to medical constraints, meaning less than 10% of stroke and cancer patients from GRH receive treatment at CCCARE. Remote treatment would allow the treatment of far more people at once without worrying about space or class size and provides graduates with support and community as they shift to more independent exercise. However, CCCARE is concerned with ensuring participants are getting safe and effective exercise. 
+CCCARE wants to provide remote care for patients because the in-person programs have limited capacity, and they would like to encourage graduated patients to rely less on the facility. Some patients on the waitlist cannot physically attend due to medical constraints, meaning fewer than 10% of stroke and cancer patients from GRH receive treatment at CCCARE. Remote care would allow the treatment of far more people at once without worrying about space or class size and provides graduates with support and community as they shift to more independent exercise. However, CCCARE is concerned with ensuring participants are getting safe and effective exercise. 
 
 ### Challenge
 
