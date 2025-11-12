@@ -7,7 +7,7 @@ More information on dosages & exercise sessions can be found [here](https://uofw
 
 ## Your Mission
 
-Your team at **CCCARE** have been tasked to develop ways for CCCARE to **improve how they deliver care and scale their services**. You’ve been selected for your strong problem-solving skills and your ability to innovate within an interdisciplinary team. CCCARE has identified three main focus areas for potential improvements:
+Your team at **CCCARE** has been tasked to develop ways for CCCARE to **improve how they deliver care and scale their services**. You’ve been selected for your strong problem-solving skills and your ability to innovate within an interdisciplinary team. CCCARE has identified three main focus areas for potential improvements:
 
 - Expanding and managing the individualized exercise plans for each participant
 - Supporting remote, at-home care to reach more people and help graduates of the programs transition to self-managed exercise
