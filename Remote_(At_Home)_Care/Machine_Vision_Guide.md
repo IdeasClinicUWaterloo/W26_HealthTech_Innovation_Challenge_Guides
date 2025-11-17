@@ -83,7 +83,7 @@ There is a ML workflow which guides development and deployment of ML models, con
    - This classifier is a long short-term memory (LSTM) model.
    - LSTMs are mainly used in cases where remembering previous information is important, like analyzing sequences of body movements.
 4. Model Training
-   - Walk through section 5 and 6 in the [exercise classifier notebook](./exercise_classifier,ipynb).
+   - Walk through section 5 and 6 in the [exercise classifier notebook](./exercise_classifier.ipynb).
      <!-- (https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/exercise_classifier.ipynb). -->
 5. Model Evaluation and Tuning
     - This involves allowing the model to make predictions using the test dataset, and evaluating how well the model performs (refer to section 9 of the exercise classifier notebook).
