@@ -17,4 +17,3 @@ Here are some things to think about as you come up with solutions for this probl
 
 ## Resources
 - [Machine Vision Guide](./Machine_Vision_Guide.md)
-- [Functional Exercise Catagories and Sample Exercises](./Sample_Exercises_and_Categories.pdf)
