@@ -15,3 +15,12 @@ More information on dosages & exercise sessions can be found [here](https://uofw
 
 ## The Challenge
 Design a **scalable** system that makes it easier to prescribe, adjust, store, and share exercise doses efficiently.
+
+## Potential Solutions
+- A database that can add, remove, and update each patient individually
+- A portable assessment “toolkit” with simple mechanical tests (w/ sensors) to aid professionals quickly gather the patient’s metrics for prescription 
+- A dashboard for instructors to log progress and easily transfer notes. 
+
+## Resources
+- [Tutorial on how to create a database](./SQL_Database_Guide.md)
+- [Documentation of Definitions of terms used by CCCare](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/_layouts/15/Doc.aspx?sourcedoc=%7B4848032B-80E5-4A9B-AB7B-14FE89A329C8%7D&file=Dosages%20&%20Exercise%20Sessions%20-%20More%20Details.docx=&action=default&mobileredirect=true)
