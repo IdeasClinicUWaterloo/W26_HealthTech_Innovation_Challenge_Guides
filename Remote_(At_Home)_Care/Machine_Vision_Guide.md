@@ -66,9 +66,11 @@ Machine Learning (ML) is a branch of AI that teaches systems to think and unders
 
 There is a ML workflow which guides development and deployment of ML models, consisting of various steps. Here are some of the steps which you will be concerned with regarding this model.
 1. Data Collection
-   - There are already some videos in the [data](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/tree/main/Machine_Vision/data) folder/directory for the three exercises.
+   - There are already some videos in the [data](./data) folder/directory for the three exercises.
+     <!-- (https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/tree/main/Machine_Vision/data) --> 
    - You can stick with these exercises, or you can choose different exercises.
-   - There is a list of exercises that CCCare typically "prescribes" participants (put file location here), you are free to choose exercises from that list [here](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/Sample_Exercises_and_Categories.pdf).
+   - There is a list of exercises that CCCare typically "prescribes" participants (put file location here), you are free to choose exercises from that list [here](./Sample_Exercises_and_Categories.pdf).
+   - <!-- (https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/Sample_Exercises_and_Categories.pdf). -->
    - Requirements if you are selecting your own data:
         - Videos must be .MP4 format.
         - Make sure that the video shows at least **two** repetitions of the exercise.
@@ -81,7 +83,8 @@ There is a ML workflow which guides development and deployment of ML models, con
    - This classifier is a long short-term memory (LSTM) model.
    - LSTMs are mainly used in cases where remembering previous information is important, like analyzing sequences of body movements.
 4. Model Training
-   - Walk through section 5 and 6 in the [exercise classifier notebook](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/exercise_classifier.ipynb).
+   - Walk through section 5 and 6 in the [exercise classifier notebook](./exercise_classifier,ipynb).
+     <!-- (https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/exercise_classifier.ipynb). -->
 5. Model Evaluation and Tuning
     - This involves allowing the model to make predictions using the test dataset, and evaluating how well the model performs (refer to section 9 of the exercise classifier notebook).
 6. Model Deployment
