@@ -4,8 +4,8 @@ Welcome to a mini guide on 3D modeling and 3D printing! This guide will walk you
 ## 2.	SolidWorks
 
 ### 2.1.	SolidWorks Installation
-If you already have a version of SolidWorks installed, you can skip this section. However, if you do not, refer to [this document](https://learn.uwaterloo.ca/d2l/le/content/1017258/viewContent/5387160/View) to install the latest version (2026).
-<!-- (LINK to doc on LEARN page) -->
+If you already have a version of SolidWorks installed, you can skip this section. However, if you do not, refer to [this document](https://learn.uwaterloo.ca/d2l/le/content/1017258/viewContent/5387160/View).
+<!-- (LINK to doc on LEARN page) to install the latest version (2026). -->
 ### 2.2.	Creating a New Sketch
 After the SolidWorks download is complete, click "Part" to start building your 3D model.
 
