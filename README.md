@@ -1,7 +1,7 @@
 # Welcome to the 2026 Health Tech Innovation Challenge!
 Created by: Engineering IDEAs Clinic Co-op Students
-## Geriatric Exercise Case Study
-Congratulations! You have recently joined the **Centre for Community, Clinical & Applied Research Excellence (CCCARE)** and have been tasked with streamlining some of their daily operations. CCCARE’s mission is to enhance the health of people in the community and support individuals as they manage illness or recover from injury. They run general exercise programs, as well as specialized sessions for people undergoing or recovering from cancer treatment, stroke survivors, and patients who have completed earlier programs but wish to continue using the facility.
+## Health Innovation Challenge Proposal:​ Exercise as a Healthcare Tool for Older Adults​
+Congratulations! Your team recently joined the **Centre for Community, Clinical & Applied Research Excellence (CCCARE)** and has been tasked with streamlining some of their daily operations. CCCARE’s mission is to enhance the health of people in the community and support individuals as they manage illness or recover from injury. They run general exercise programs, as well as specialized sessions for people undergoing or recovering from cancer treatment, stroke survivors, and patients who have completed earlier programs but wish to continue using the facility.
 
 More information on dosages & exercise sessions can be found [here](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef). 
 
