@@ -14,7 +14,7 @@ Design a system that **tracks** and **measures** the quality of patient activity
 - Exercise mats (or step platforms) or wearable equipment embedded with pressure sensors to detect movement, force, and repetitions
 
 ## Resources
-- [Tutorial on 3D printing](./3D_Modeling_and_Printing_Guide.md)
+- [Tutorial on 3D printing](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/IdeasClinicUWaterloo-patch-1/3D_Modeling_and_Printing/GUIDE.md)
 - [Tutorial on implementing sensors](./Sensor/Dual_Sensor_Guide.md)
 - Hardware components
 - [Documentation of Definitions of terms used by CCCARE](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/_layouts/15/Doc.aspx?sourcedoc=%7B4848032B-80E5-4A9B-AB7B-14FE89A329C8%7D&file=Dosages%20&%20Exercise%20Sessions%20-%20More%20Details.docx=&action=default&mobileredirect=true)
