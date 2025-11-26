@@ -11,8 +11,6 @@ Currently, CCCCARE relies on a hybrid data management system combining both digi
   
 Unfortunately, Access cannot be integrated with other clinical software or visualize data, hindering data sharing and coordination.
 
-More information on dosages & exercise sessions can be found [here](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef).
-
 ## The Challenge
 Design a **scalable** system that makes it easier to prescribe, adjust, store, and share exercise doses efficiently.
 
@@ -23,4 +21,5 @@ Design a **scalable** system that makes it easier to prescribe, adjust, store, a
 
 ## Resources
 - [Tutorial on how to create a database](./SQL_Database_Guide.md)
-- [Documentation of Definitions of terms used by CCCARE](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/_layouts/15/Doc.aspx?sourcedoc=%7B4848032B-80E5-4A9B-AB7B-14FE89A329C8%7D&file=Dosages%20&%20Exercise%20Sessions%20-%20More%20Details.docx=&action=default&mobileredirect=true)
+- [Sensors Guide](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/IdeasClinicUWaterloo-patch-1/Sensors/GUIDE.md)
+- [Information on dosages & exercise sessions](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef)
