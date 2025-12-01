@@ -3,8 +3,6 @@ Created by: Engineering IDEAs Clinic Co-op Students
 ## Health Innovation Challenge Proposal:​ Exercise as a Healthcare Tool for Older Adults​
 Congratulations! Your team recently joined the **Centre for Community, Clinical & Applied Research Excellence (CCCARE)** and has been tasked with streamlining some of their daily operations. CCCARE’s mission is to enhance the health of people in the community and support individuals as they manage illness or recover from injury. They run general exercise programs, as well as specialized sessions for people undergoing or recovering from cancer treatment, stroke survivors, and patients who have completed earlier programs but wish to continue using the facility.
 
-More information on dosages & exercise sessions can be found [here](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef). 
-
 ## Your Mission
 
 Your team at **CCCARE** has been tasked to develop ways for CCCARE to **improve how they deliver care and scale their services**. You’ve been selected for your strong problem-solving skills and your ability to innovate within an interdisciplinary team. CCCARE has identified three main focus areas for potential improvements:
@@ -27,8 +25,9 @@ At CCCARE, participants receive a personalized exercise plan (referred to as a �
 
 Patients’ exercise history and data must be consulted when adjusting exercise plans. Currently, CCCARE stores data using a mix of digital and paper-based systems: exercise logs are stored on paper, appointments are scheduled using AirTable, intake assessments are written on paper and manually input into a Microsoft Access database by staff, and referrals from Waterloo Regional Health Network (WRHN) are sent in by fax which requires manual entry into the database. Unfortunately, Access cannot be integrated with other clinical software or visualize data, hindering data sharing and coordination. 
 
-### Challenge:
-Design a scalable system that makes it easier to prescribe, adjust, store, and share exercise doses efficiently. The [Designing a Database](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Database/GUIDE.md) files offer a step-by-step guide on how to implement various tools into your solution.
+### Challenge
+Design a scalable system that makes it easier to prescribe, adjust, store, and share exercise doses efficiently. For more information, and a step-by-step guide on how to implement various tools into your solution, check out the [Scalable Systems for Personalized Care Folder](./Scalable_Systems_for_Personalized_Care).
+<!-- The [Designing a Database](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Database/GUIDE.md) files offer a step-by-step guide on how to implement various tools into your solution. -->
 
 ---
 
@@ -38,7 +37,8 @@ In CCCARE, an instructor will work with 10-12 patients in a session. Meanwhile, 
 
 ### Challenge
 
-Design a system that tracks and measures the quality of patient activity. The [Wearable Design and 3D-Printing Considerations](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/3D_Printed_Wearable/GUIDE.md) and [Sensor Kit](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Sensor/GUIDE.md) files offer a step-by-step guide on how to implement various tools into your solution.
+Design a system that tracks and measures the quality of patient activity. For more information, and a step-by-step guide on how to implement various tools into your solution, check out the [Exercise Tracking and Measurement Folder](./Exercise_Tracking_and_Measurement).
+<!-- The [Wearable Design and 3D-Printing Considerations](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/3D_Printed_Wearable/GUIDE.md) and [Sensor Kit](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Sensor/GUIDE.md) files offer a step-by-step guide on how to implement various tools into your solution. -->
 
 ---
 
@@ -48,4 +48,10 @@ CCCARE wants to provide remote care for patients because the in-person programs 
 
 ### Challenge
 
-Design a system that ensures patients are completing the correct exercises and adhering to their treatment plans at home. [Machine Vision](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/GUIDE.md) files offer a step-by-step guide on how to implement various tools into your solution.
+Design a system that ensures patients are completing the correct exercises and adhering to their treatment plans at home. For more information, and a step-by-step guide on how to implement various tools into your solution, check out the [Remote (At Home) Care Folder](./Remote_(At_Home)_Care).
+<!-- [Machine Vision](https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/GUIDE.md) files offer a step-by-step guide on how to implement various tools into your solution. -->
+
+---
+
+## General Rescources
+More information on dosages & exercise sessions can be found [here](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef). 
