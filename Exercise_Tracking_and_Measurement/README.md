@@ -10,6 +10,7 @@ Design a system that **tracks** and **measures** the quality of patient activity
 - Motion trackers that are worn on the wrist/ankle (like a fitness tracker) to track limb motion, speed, and tremor
 - A vest that can be worn during exercise to track vitals (like smart clothes) such as heart rate, heart rate variability, breathing rate/volume
 - Exercise mats (or step platforms) or wearable equipment embedded with pressure sensors to detect movement, force, and repetitions
+- Add sensors to existing exercise equipment
 
 ## Resources
 - [Tutorial on 3D printing](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/IdeasClinicUWaterloo-patch-1/3D_Modeling_and_Printing/GUIDE.md)
