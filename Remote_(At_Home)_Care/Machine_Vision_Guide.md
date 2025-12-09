@@ -47,7 +47,7 @@ You can use the `requirements.txt` file in this folder and run this one-line com
 
 <h3 id = '2.4'> 2.4 Jupyter Notebook</h3>
 
-Jupyter Notebook is used for machine learning becuase it provides an interactive environment where you can write and run code in small chunks, visualize data and document your process all in one location.
+Jupyter Notebook is used for machine learning because it provides an interactive environment where you can write and run code in small chunks, visualize data and document your process all in one location.
 - Follow this guide for using [Jupyter Notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) in VSCode
 
 
