@@ -15,10 +15,10 @@ Unfortunately, Access cannot be integrated with other clinical software or visua
 Design a **scalable** system that makes it easier to prescribe, adjust, store, and share exercise doses efficiently.
 
 ## Potential Solutions
-|Potential Solutions|Resources Needed|
+|Solution Description|Resources Needed|
 |:---|:---|
 |A database that can add, remove, and update each patient individually|<ul> <li> [Database System](## "SQLite (local), PostgreSQL/MySQL (production), or Firebase") <li> [Backend framework](## "Flask, Django, or Node.js") <li> SQLAlchemy, Django ORM, Prisma <li> [API endpoints for CRUD operations](## "Create, Read, Update, Delete") <li> [Cloud hosting (optional)](## "AWS, Azure, Render, Railway")|
-|A portable assessment “toolkit” with simple mechanical tests (with sensors) to help professionals gather patient metrics|<ul> <li> Mechanical Assessment Tool <li> Sensor for digital measurement <li> 3D printed parts <li> Data collection App|
+|A portable assessment “toolkit” with simple mechanical tests (with sensors) to help professionals gather patient metrics|<ul> <li> Mechanical Assessment Tool <li> [Sensors](## "For digital measurement") <li> 3D printed parts <li> Data collection App|
 |A dashboard for instructors to log progress and easily transfer notes|<ul> <li> [Website framework](## "Next.js, React, or Vue") <li> Database for storing logs, notes, and patient progress <li> Note-taking components <li> Progress visualization <li> File upload support|
 <!--
 - A database that can add, remove, and update each patient individually
