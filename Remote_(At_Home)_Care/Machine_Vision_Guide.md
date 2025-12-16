@@ -192,6 +192,9 @@ There is a ML workflow which guides development and deployment of ML models, con
  - Now that you know how to process one image, processing a video or livestream is easy since a video is just numerous frames of an image. 
  - Check out this code on how that is done, then, you are ready to start your own journey of using CV and Mediapipe to complete your own project!
 
+<h3 id= '4.3'>4.3: Resources to help you</h3>
+You can find videos for your data at [Kaggle](https://www.kaggle.com/) or use this [dataset from Kaggle](https://www.kaggle.com/datasets/hasyimabdillah/workoutfitness-video).
+Here is an application of using MediaPipe in the [JupyterNotebook File](Remote_(At_Home)_Care/exercise_classifier.ipynb)
  ---
 
  Good Luck!
