@@ -11,6 +11,8 @@
  - 3.2: [OpenCV Basic Implementations](#3.2)
 ### 4. [Health Related Application](#4)
  - 4.1: [Pose Detection Library Features](#4.1)
+ - 4.2: [Library Basic Implementations](#4.2)
+ - 4.3: [Resources to help you](#4.3)
 
 <h2 id = '1'> 1. Introduction</h2>
 
