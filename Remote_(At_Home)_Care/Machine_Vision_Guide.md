@@ -1,76 +1,74 @@
-# Machine Vision: Integrating Machine Learning with OpenCV and MediaPipe
+# Machine Vision Guide
 ## Table of Contents
 ### 1. [Introduction](#1)
-### 2. [Installation](#2)
-   - 2.1. [Download Python](#2.1)
-   - 2.2. [Creating Virtual Environments](#2.2)
-   - 2.3. [Install Python Libraries](#2.3)
-   - 2.4. [Jupyter Notebook](#2.4)
-### 3. [Computer Vision Basics](#3)
-### 4. [Machine Learning](#4)
-   - 4.1 [Running the Model](#4.1)
-
+### 2. [Terminology](#2)
+### 3. [Setting up your System](#3)
+   - 3.1. [Install Python Libraries](#3.1)
+   - 3.2. [Create a Jupyter Notebook](#3.2)
+   - 3.3. [Set up a Computer Vision System](#3.3)
+   - 3.4. [Machine Learning](#3.4)
+<!--        - 3.4.1. [Running the Model](#3.4.1) -->
+   - 3.5. [Choose a Machine Learning Solution](#3.5)
+<!-- ### 4. [Machine Learning](#4)
+   - 4.1 [Running the Model](#4.1) -->
+   
 <h2 id = '1'> 1. Introduction</h2>
+This guide walks you through the steps required to set up a machine vision system. By combining machine learning (ML) with computer vision, you'll be able to track and respond to specific activities or the presence or absence of certain objects. Typical applications are quality control, automation, inspection, and process optimization.
 
-This guide will walk you through a machine learning (ML) model that you can train to identify exercises in combination with Google's Mediapipe and OpenCV. This ML model is an LSTM (long short-term memory) model, which can make predictions from sequences of data. 
+<h2 id = '2'> 2. Terminology</h2>
 
-<h2 id = '2'> 2. Installation</h2>
+**Computer Vision**: a branch of AI that lets machines capture and interpret real-world visual data (images or video)
 
-<h3 id = '2.1'> 2.1 Download Python (version 3.9 - 3.11)</h3>
+**Jupyter Notebook**: an open-source web application to create and share documents that contain live code, equations, visualizations, and narrative text. It supports Python, R, Julia, Ruby, Scala, and Node.js languages
 
-* Currently, Mediapipe is only supported on python versions 3.9 to 3.12.
-* You can download a compatible version of python [here](https://www.python.org/downloads/).
+**Machine Learning (ML)**:  a branch of AI that teaches systems to think and understand like humans by learning from data
 
-<h3 id = '2.2'> 2.2 Creating Virtual Environments</h3>
+**Machine-Learning Pipeline**: a structured workflow that automates the process of building, training, and deploying machine learning models
 
-A Python virtual environment (venv) is a self-contained directory that allows you to install packages and dependencies for a specific project without affecting the global Python installation or other projects.
+**MediaPipe**: Google's open-source framework for building and deploying machine-learning pipelines
 
-1. Download the starter code contained in this folder (it is recommended you use git to download and share these files)
-2. Open a terminal in vscode and use `cd *directory*` to navigate to the directory where you stored the code you downloaded in step 1
-3. Create a venv:
-   - Enter `python -m venv *name-of-your-venv*` in the same terminal. This should create a new folder with the name of your venv under the "Computer Vision" directory
-4. Activate the venv:
-   - You might get a prompt in VSCode after creating the venv, asking if you want to use the new venv for your project. If you select yes, you don't need to do the following.
-   - for Mac/Linux users: `source ./name-of-your-venv/bin/activate`
-   - for Windows users: `name-of-your-venv/Scripts/activate`
-   - When prompted, type R and then enter to run once
-   - you should now see `(name-of-your-venv)` being appended to your input prompt, indicating that you have activated your venv
+**OpenCV**: an open-source software library for computer vision and machine learning (short for Open Source Computer Vision library)
 
-<h3 id = '2.3'> 2..3 Install Python Libraries</h3>
+**Python**: an easy-to-use programming environment for general purpose coding
 
-- **OpenCV**: For handling image and video processing.
-- **MediaPipe Solutions**: For real-time computer vision tasks such as pose estimation, hand tracking, and face detection.
-- **Numpy**: For matrix and array operations.
-- **Tensorflow**: For building and training machine learning models (specifically deep learning).
+<h2 id = '3'> 3. Setting up your System</h2>
 
-You can use the `requirements.txt` file in this folder and run this one-line command in the terminal: `pip install -r requirements.txt`
+This machine learning system will be created in Python.  If you haven't used Python before or don't have it installed on your computer, please check out this [Getting Started with Python](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/IdeasClinicUWaterloo-patch-1/Python/Getting_Started_with_Python.md) guide. It will guide you through the steps required to install and run Python. Make sure to install a Python **version between 3.9 - 3.11** for this project.
 
-<h3 id = '2.4'> 2.4 Jupyter Notebook</h3>
+<h3 id = '3.1'> 3.1 Install Python Libraries</h3>
+You'll need to install the following libraries for your machine vision system:
 
-Jupyter Notebook is used for machine learning because it provides an interactive environment where you can write and run code in small chunks, visualize data and document your process all in one location.
-- Follow this guide for using [Jupyter Notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) in VSCode
+ - **OpenCV**: For handling image and video processing
+- **MediaPipe Solutions**: For real-time computer vision tasks such as pose estimation, hand tracking, and face detection
+- **NumPy**: For matrix and array operations
+- **Tensorflow**: For building and training machine learning models (specifically deep learning)
 
+You can use the `requirements.txt` file in this folder and run this one-line command in the terminal: `pip install -r requirements.txt
 
-<h2 id = '3'> 3. Computer Vision Basics</h2>
+<h3 id = '3.2'> 3.2 Create a Jupyter Notebook</h3>
 
-Refer to the tech stack from the Winter 2025 [Health Tech Innovation Challenge](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/tree/4b4f367f191157d8503dc93de521de78b7b8d533/Computer_Vision) for a beginners guide to OpenCV and Mediapipe.
+Jupyter Notebook is often used for machine learning applications because it provides an interactive environment where you can write and run code in small chunks, visualize data and document your process all in one location. 
 
-<h2 id = '4'> 4. Machine Learning</h2>
+If you haven't used Jupyter Notebook before, please check out this [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) site on setting up and using it.
+
+<h3 id = '3.3'> 3.3. Set up a Computer Vision System</h2>
+
+If you've never worked with a computer vision system before, please check out this [Getting Started with OpenCV](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/IdeasClinicUWaterloo-patch-1/Machine_Learning/Getting_Started_with_OpenCV.md) guide. It will introduce you to OpenCV, short for **Open Source Computer Vision Library**, which is an open-source software library for computer vision and machine learning. 
+
+<h3 id = '3.4'> 3.4. Machine Learning</h3>
 
 Machine Learning (ML) is a branch of AI that teaches systems to think and understand like humans by learning from the data.
 - Trained ML models must be integrated into an application to make its predictions accessible.
 - The model provided in this folder `exercise_classifier.ipynb` can be trained to recognize three exercises using your webcam: bicep curls, shoulder presses, and squats.
    - Follow the steps below to learn more about using this model for your projects.
 
-<h3 id = '4.1'> 4.1 Running the Model</h3>
+<h4 id = '3.4.1'> <!-- 3.4.1 --> Running the Model</h4>
 
 There is a ML workflow which guides development and deployment of ML models, consisting of various steps. Here are some of the steps which you will be concerned with regarding this model.
 1. Data Collection
    - There are already some videos in the [data](./data) folder/directory for the three exercises.
-     <!-- (https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/tree/main/Machine_Vision/data) --> 
    - You can stick with these exercises, or you can choose different exercises.
    - There is a list of exercises that CCCare typically "prescribes" participants (put file location here), you are free to choose exercises from that list [here](./Sample_Exercises_and_Categories.pdf).
-   - <!-- (https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/Sample_Exercises_and_Categories.pdf). -->
    - Requirements if you are selecting your own data:
         - Videos must be .MP4 format.
         - Make sure that the video shows at least **two** repetitions of the exercise.
@@ -84,7 +82,6 @@ There is a ML workflow which guides development and deployment of ML models, con
    - LSTMs are mainly used in cases where remembering previous information is important, like analyzing sequences of body movements.
 4. Model Training
    - Walk through section 5 and 6 in the [exercise classifier notebook](./exercise_classifier.ipynb).
-     <!-- (https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/exercise_classifier.ipynb). -->
 5. Model Evaluation and Tuning
     - This involves allowing the model to make predictions using the test dataset, and evaluating how well the model performs (refer to section 9 of the exercise classifier notebook).
 6. Model Deployment
@@ -105,5 +102,9 @@ For more information on the machine learning workflow check out this [link](http
 
 You can find videos for your data at [Kaggle](https://www.kaggle.com/) or use this [dataset from Kaggle](https://www.kaggle.com/datasets/hasyimabdillah/workoutfitness-video).
 
+<h3 id = '3.5'> 3.5. Choose a Machine Learning Solution</h2>
 
+Then you'll want to explore the resources in the [MediaPipe Studio](https://mediapipe-studio.webapps.google.com/home). Here you can choose from vision-related solutions such as object detection, image classification and pose detection, text-related solutions such as text classification and language detection, or audio classification.
+
+- Check out this [Health-Related Application](./Health_Related_Application.md) that uses MediaPipe's pose detection library.
 
