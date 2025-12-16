@@ -6,9 +6,11 @@
    - 2.2. [Creating Virtual Environments](#2.2)
    - 2.3. [Install Python Libraries](#2.3)
    - 2.4. [Jupyter Notebook](#2.4)
-### 3. [Computer Vision Basics](#3)
-### 4. [Machine Learning](#4)
-   - 4.1 [Running the Model](#4.1)
+### 3. [Getting Started with OpenCV](#3)
+ - 3.1: [OpenCV Basic Features](#3.1)
+ - 3.2: [OpenCV Basic Implementations](#3.2)
+### 4. [Health Related Application](#4)
+ - 4.1: [Pose Detection Library Features](#4.1)
 
 <h2 id = '1'> 1. Introduction</h2>
 
@@ -50,19 +52,72 @@ You can use the `requirements.txt` file in this folder and run this one-line com
 Jupyter Notebook is used for machine learning because it provides an interactive environment where you can write and run code in small chunks, visualize data and document your process all in one location.
 - Follow this guide for using [Jupyter Notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) in VSCode
 
+<h2 id='3'>3: Getting Started with OpenCV</h2>
 
-<h2 id = '3'> 3. Computer Vision Basics</h2>
+<h3 id='3.1'>3.1: Basic OpenCV Features</h3>
 
-Refer to the tech stack from the Winter 2025 [Health Tech Innovation Challenge](https://github.com/IdeasClinicUWaterloo/W25_HealthTech_Innovation_Challenge_Guides/tree/4b4f367f191157d8503dc93de521de78b7b8d533/Computer_Vision) for a beginners guide to OpenCV and Mediapipe.
+Here are some important concepts and features of OpenCV that beginners should know:
 
-<h2 id = '4'> 4. Machine Learning</h2>
+**Image Channels**
+- **Grayscale images** have 1 channel that represents the intensity level
+    - <img src='images/gray_scale.png' height=200>
+    - the smaller the number is, the darker the pixel
+- **Colour images** have 3 channels (Red, Green, Blue)
+    - <img src='images/rgb_wheel.png' width=450>
+
+**BGR vs RGB Color Format**
+- OpenCV processes images in **BGR** format, not the typical **RGB** format used in other image processing libraries. The difference is in the order of the color channels
+- This means that when OpenCV reads an image, the pixel values will be ordered as BGR. If you need to convert from BGR to RGB, you can do so like this:
+    ```
+    # Convert BGR image to RGB
+    rgb_image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    ```
+**Working with Arrays**
+- OpenCV images are stored as **NumPy arrays**. This means you can use NumPy's powerful indexing and slicing features to manipulate image data directly:
+    ```
+    # Access the pixel at row 50, column 100
+    pixel = image[50, 100]
+
+    # Modify the pixel value (in BGR format)
+    image[50, 100] = [255, 0, 0]  # Set to blue
+    ```
+
+<h3 id='3.2'>3.2: OpenCV Basic Implementations</h3>
+
+
+**[Reading and Displaying an Image](cv_examples/read_show_image.py)** (These titles are clickable)
+
+ - Using the [```cv2.imread()```](https://www.geeksforgeeks.org/python-opencv-cv2-imread-method/) and [```cv2.imshow()```](https://www.geeksforgeeks.org/python-opencv-cv2-imshow-method/) method.
+ - Your first place to start! Now you can display an image from a file with openCV!
+
+**[Converting Image to Grayscale](cv_examples/convert_to_grayscale.py)**
+ - Using the [```cv2.cvtColor()```](https://www.geeksforgeeks.org/python-opencv-cv2-cvtcolor-method/) method to convert a bgr coloured image to grayscale.
+ - Since grayscale images have only one colour channel, their file size is much smaller than coloured images. This is a great option when you want to optimize the computation efficiency of an image/video where you don't need the colour information. 
+
+**[Resize Image](cv_examples/resize_image.py)**
+ - Using the [```cv2.resize()```](https://www.geeksforgeeks.org/image-resizing-using-opencv-python/) method.
+
+**[Capture Video from Webcam](cv_examples/capture_from_webcam.py)**
+ - Use the [```cv2.VideoCapture()```](https://www.geeksforgeeks.org/python-opencv-capture-video-from-camera/) method with parameter 0 to open the built-in webcam of your laptop
+ - Call the ```read()``` method on the VideoCapture object in a loop to process it frame by frame
+
+ **[Read Video from File](cv_examples/read_video_from_file.py)**
+ - Same as the above, but replace the parameter in the ```VideoCapture()``` method with the path to the file.
+
+**[Edge Detection](cv_examples/detect_edge.py)**
+ - Edge detection highlights boundaries within an image where there is a sharp change in brightness. This is used in various applications such as object recognition, image segmentation, motion detection, etc.
+ - This code demonstrates the most popular edge detection algorithm, the Canny algorithm with the [```cv2.Canny()```](https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html) method. 
+
+**For more tutorials, check out the [official OpenCV-Python Tutorials page](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)**
+
+<h2 id = '5'> 4. Machine Learning</h2>
 
 Machine Learning (ML) is a branch of AI that teaches systems to think and understand like humans by learning from the data.
 - Trained ML models must be integrated into an application to make its predictions accessible.
 - The model provided in this folder `exercise_classifier.ipynb` can be trained to recognize three exercises using your webcam: bicep curls, shoulder presses, and squats.
    - Follow the steps below to learn more about using this model for your projects.
 
-<h3 id = '4.1'> 4.1 Running the Model</h3>
+<h3 id = '5.1'> 4.1 Running the Model</h3>
 
 There is a ML workflow which guides development and deployment of ML models, consisting of various steps. Here are some of the steps which you will be concerned with regarding this model.
 1. Data Collection
@@ -85,25 +140,60 @@ There is a ML workflow which guides development and deployment of ML models, con
 4. Model Training
    - Walk through section 5 and 6 in the [exercise classifier notebook](./exercise_classifier.ipynb).
      <!-- (https://github.com/IdeasClinicUWaterloo/W26_HealthTech_Innovation_Challenge_Guides/blob/main/Machine_Vision/exercise_classifier.ipynb). -->
-5. Model Evaluation and Tuning
-    - This involves allowing the model to make predictions using the test dataset, and evaluating how well the model performs (refer to section 9 of the exercise classifier notebook).
-6. Model Deployment
-   - There are various methods to deploy your model once it is finished.
-   - Offline:
-        - Good for running predictions on videos post-recording
-        - Save the trained model (.h5 file)
-        - Create a script/function
-        - Ensure that the preprocessing and sequence formatting is the same as used to train the model
-   - Web or Desktop App:
-        - Good for letting other use it via a GUI
-        - You can wrap the model in an app using Streamlit or Flask/FastAPI
-        - Tutorial for [Streamlit](https://www.geeksforgeeks.org/python/a-beginners-guide-to-streamlit/)
-        - Tutorial for [FastAPI](https://www.geeksforgeeks.org/python/fastapi-introduction/)
-   - There are many more ways to make use of your ML model, be as creative as you want!
 
-For more information on the machine learning workflow check out this [link](https://www.geeksforgeeks.org/machine-learning/machine-learning-lifecycle/)!
+<h2 id='4'>4: Health Related Application</h2>
 
-You can find videos for your data at [Kaggle](https://www.kaggle.com/) or use this [dataset from Kaggle](https://www.kaggle.com/datasets/hasyimabdillah/workoutfitness-video).
+ - Mediapipe provides libraries for a great variety of tasks that you can choose from depending on the goal of your project. You can find a web-based demo of these library utilities on the [MediaPipe Studio site](https://mediapipe-studio.webapps.google.com/demo/pose_landmarker).
 
+    - Use your webcam as the input and tweak the parameter values to have some fun with it!
+
+ - This guide will only go over the basics of the **Pose Detection** library as it may be the most relevant to your problem space.
+
+ <h3 id='4.1'>4.1: Library Features</h3>
+
+ - The Mediapipe Pose Detection library tracks the location of 33 body landmarks.
+    - <img src='https://ai.google.dev/static/mediapipe/images/solutions/pose_landmarks_index.png' height=500px>
+
+ - Each landmark contains the x, y, and z coordinates, as well as the visibility of the landmark
+    ```bash
+        # print an example landmark
+
+        x: 0.401668698
+        y: 0.664962471
+        z: -0.16625689
+        visibility: 0.998352528
+    ```
+    - ```x``` and ```y``` are normalized coordinates representing the 2D position of the landmark in the image 
+        - Ranging from 0 to 1, relative to the image dimensions.
+    - ```z``` is a **relative** depth coordinate representing the distance of the landmark from the camera.
+        - You are likely not working with a depth camera here, so the ```z``` value is not a real "measured" value. It is rather estimated by the Mediapipe model. 
+    - ```visibility``` is a confidence score indicating how likely it is that the landmark is visible or correctly detected. 
+        - Ranges from 0.0 to 1.0. 
+            - 1.0 == high confidence
+            - 0.0 == low confidence
+    - Let's say the program can only view the upper body of a person to detect their pose, like this:
+
+        <img src='images/upper_body_pose.png' height=200px>\
+    the pose detection method will still, by default, return the ```x y z``` coordinates of the lower body landmarks.
+        - The visible upper body landmarks will have very **high** ```visibility``` values
+        - the knee joints and ankle joint will have extremely **low** ```visibility``` values.
+        - the hip joints will each have a **median** ```visibility```value because the model can estimate the hip joint coordinates with higher confidence based on the visible upper body landmarks.
+
+ <h3 id='4.2'>4.2: Library Basic Implementations</h3>
+
+**[Pose Detection on an Image](mp_examples/draw_landmarks_on_image.py)**
+ - Visit this code snippet for the simplest implementation that detects and draws the landmarks on an image. 
+ - Think about how you would:
+    1. Get the ```x y z``` coordinates and the ```visibility``` value of a specific landmark.
+    2. Change the colour and thickness of the landmark labels and the connection lines.
+    3. Calculate the angle at the left elbow joint.
+
+**[Pose Detection on LiveStream](mp_examples/draw_landmarks_on_live_stream.py)**
+ - Now that you know how to process one image, processing a video or livestream is easy since a video is just numerous frames of an image. 
+ - Check out this code on how that is done, then, you are ready to start your own journey of using CV and Mediapipe to complete your own project!
+
+ ---
+
+ Good Luck!
 
 
