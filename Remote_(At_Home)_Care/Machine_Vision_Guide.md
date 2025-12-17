@@ -6,8 +6,7 @@
    - 3.1. [Install Python Libraries](#3.1)
    - 3.2. [Create a Jupyter Notebook](#3.2)
    - 3.3. [Set up a Computer Vision System](#3.3)
-   - 3.4. [Machine Learning](#3.4)
-<!--        - 3.4.1. [Running the Model](#3.4.1) -->
+   - 3.4. [Machine Learning](#3.4) <!--        - 3.4.1. [Running the Model](#3.4.1) -->
    - 3.5. [Choose a Machine Learning Solution](#3.5)
 <!-- ### 4. [Machine Learning](#4)
    - 4.1 [Running the Model](#4.1) -->
@@ -68,7 +67,7 @@ There is a ML workflow which guides development and deployment of ML models, con
 1. Data Collection
    - There are already some videos in the [data](./data) folder/directory for the three exercises.
    - You can stick with these exercises, or you can choose different exercises.
-   - There is a list of exercises that CCCare typically "prescribes" participants (put file location here), you are free to choose exercises from that list [here](./Sample_Exercises_and_Categories.pdf).
+   - There is a list of exercises that CCCARE typically "prescribes" participants (put file location here), you are free to choose exercises from that list [here](./Sample_Exercises_and_Categories.pdf).
    - Requirements if you are selecting your own data:
         - Videos must be .MP4 format.
         - Make sure that the video shows at least **two** repetitions of the exercise.
