@@ -12,7 +12,9 @@
    - 4.1 [Running the Model](#4.1) -->
    
 <h2 id = '1'> 1. Introduction</h2>
-This guide walks you through the steps required to set up a machine vision system. By combining machine learning (ML) with computer vision, you'll be able to track and respond to specific activities or the presence or absence of certain objects. Typical applications are quality control, automation, inspection, and process optimization.
+
+This guide walks you through the steps required to set up a machine vision system. By combining machine learning (ML) with computer vision, you'll be able to track and respond to specific activities or the presence or absence of certain objects. Typical applications are quality control, automation, inspection, and process optimization. If you've never worked with machine learning before, check out this [Getting_Started_with_Machine_Learning.md](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/IdeasClinicUWaterloo-patch-1/Machine_Learning/Getting_Started_with_Machine_Learning.md) guide. It will introduce you to machine learning (ML) and explain the workflow that guides development and deployment of ML models.
+
 
 <h2 id = '2'> 2. Terminology</h2>
 
