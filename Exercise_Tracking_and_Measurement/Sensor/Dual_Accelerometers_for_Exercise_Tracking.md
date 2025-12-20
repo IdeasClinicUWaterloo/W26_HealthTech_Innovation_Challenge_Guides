@@ -1,5 +1,5 @@
 # Dual Accelerometers for Exercise Tracking
-For the set up, refer to [Dual Accelerometer Guide](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/IdeasClinicUWaterloo-patch-1/Sensors/Dual_Accelerometer_Guide.md).
+For the set up, refer to [Dual Accelerometer Guide](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Sensors/Dual_Accelerometer_Guide.md).
 
 One effective application for these sensors is measuring the angle between two segments at a joint, allowing them to be used as a device for tracking range of motion. 
 
@@ -70,7 +70,7 @@ At rest, the largest static acceleration is from gravity (downward) and all sens
 
 - If your arm is straight, both bicep and forearm “sense” gravity in the same direction — angle ≈ 0°
 - If you bend your elbow to 90°, the forearm sensor will measure gravity at ~90° relative to the bicep — angle ≈ 90°
-- If you bend it fully, ~180°, the sensors will be anti-parallel.
+- If you bend it fully, ~180°, the sensors will be anti-parallel
 
 The calculation is purely geometric: the angle between the sensors' gravity vectors
 
