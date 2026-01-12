@@ -51,7 +51,7 @@ If you haven't used Jupyter Notebook before, please check out this [Jupyter Note
 
 <h3 id = '3.3'> 3.3. Set up a Computer Vision System</h2>
 
-If you've never worked with a computer vision system before, please check out this [Getting Started with OpenCV](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Getting_Started_with_OpenCV.md) guide. It will introduce you to OpenCV, short for **Open Source Computer Vision Library**, which is an open-source software library for computer vision and machine learning. 
+If you've never worked with a computer vision system before, please check out this [Getting Started with OpenCV](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Machine_Vision/Getting_Started_with_OpenCV.md) guide. It will introduce you to OpenCV, short for **Open Source Computer Vision Library**, which is an open-source software library for computer vision and machine learning. 
 
 <h3 id = '3.4'> 3.4. Machine Learning</h3>
 
