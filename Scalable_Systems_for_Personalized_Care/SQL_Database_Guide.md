@@ -1,43 +1,71 @@
-To create a database, we will be using SQLAlchemy to interact with sqlite, a database storage engine. WTForms will allow us to take user inputs, and Flask helps tie everything together into a web application along with basic HTML and CSS. 
+To create a database, we will be using SQLAlchemy to interact with sqlite, a database storage engine. 
+WTForms will allow us to take user inputs, and Flask helps tie everything together into a web application along with basic HTML and CSS.
+
+
 # SQL Database Structures
+
 This content was adapted from [this tutorial](https://realpython.com/python-sqlite-sqlalchemy/#structuring-a-database-with-sql) which can provide more in-depth explanations! 
 
-SQLite is used to create and manage relational databases, store data into tables, and establish relationships between these tables. Each table have rows of records, and each record is made up of columns/fields which contain data and a primary key which is used as a unique identifier for the record. These primary keys are automatically created as an incrementing integer value by SQLite. 
+SQLite is used to create and manage relational databases, store data into tables, and establish relationships between these tables. 
+Each table have rows of records, and each record is made up of columns/fields which contain data and a primary key which is used as a unique identifier for the record. 
+These primary keys are automatically created as an incrementing integer value by SQLite. 
 
 Relationships can be used to easily group data together even when they’re broken up between different tables. 
 
-One-to-Many relationships are used in this database to relate each exercise session to a patient. One patient can have many different exercise sessions, but each session belongs to only one patient. To establish the one-to-many relationship, within each session record the patient id of the corresponding patient will be stored. These are called foreign keys, and allow for a “lookup” reference back to the unique patient
-Many-to-Many relationships are not used in this database, since the personalization of exercise made it difficult to employ effectively. However, if CCCare were to hold exercise classes where all the participants performed the same exercises, we could use many-to-many relationships to connect these classes with the patients. In this case, one class will have multiple patients attending, and one patient can attend multiple classes. These would be established through association tables, where each record contains at least two foreign key fields. Essentially, we combine different primary keys together.
+One-to-Many relationships are used in this database to relate each exercise session to a patient.
+One patient can have many different exercise sessions, but each session belongs to only one patient.
+To establish the one-to-many relationship, within each session record the patient id of the corresponding patient will be stored.
+These are called foreign keys, and allow for a “lookup” reference back to the unique patient.
+
+Many-to-Many relationships are not used in this database, since the personalization of exercise made it difficult to employ effectively. 
+However, if CCCare were to hold exercise classes where all the participants performed the same exercises, we could use many-to-many relationships to connect these classes with the patients. 
+In this case, one class will have multiple patients attending, and one patient can attend multiple classes. 
+These would be established through association tables, where each record contains at least two foreign key fields. 
+Essentially, we combine different primary keys together.
+
 
 # Installation Guide for SQLAlchemy (macOS)
-Before setting up your Flask + SQLAlchemy project, make sure you have Python 3 and pip installed. macOS already comes with Python, but it’s best to install your own version using Homebrew for better compatibility.
 
-Step 1: Install Homebrew
-Open Terminal and run:
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-Step 2: Install Python 3
-```bash
-brew install python
-```
-You can verify installation:
-```bash
-python3 --version
-```
-Step 3: Set up a virtual environment
-Replace vEnvironmentName with whatever you want to call your venv
-```bash
-python3 -m venv vEnvironmentName
-source vEnvironmentName/bin/activate
-```
-Step 3: Install Flask, SQLAlchemy, and WTForms
-```bash
-pip install Flask Flask-SQLAlchemy Flask-WTF
-```
+Before setting up your Flask + SQLAlchemy project, make sure you have Python 3 and pip installed. 
+macOS already comes with Python, but it’s best to install your own version using Homebrew for better compatibility.
 
-# Using SQLAlchemy 
-SQL is the language used to interact with databases, allowing users to create, manage, and query the data. SQLAlchemy is a package which translates between SQL and Python, and Flask-SQLAlchemy lets us use SQLAlchemy inside the context of our web app.
+1. Install Homebrew
+
+    Open Terminal and run:
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+2. Install Python 3
+
+    ```bash
+    brew install python
+    ```
+
+    You can verify installation:
+    ```bash
+    python3 --version
+    ```
+3. Set up a virtual environment
+
+    Replace vEnvironmentName with whatever you want to call your venv
+    ```bash
+    python3 -m venv vEnvironmentName
+    source vEnvironmentName/bin/activate
+    ```
+
+4. Install Flask, SQLAlchemy, and WTForms
+
+    ```bash
+    pip install Flask Flask-SQLAlchemy Flask-WTF
+    ```
+
+
+# Using SQLAlchemy
+
+SQL is the language used to interact with databases, allowing users to create, manage, and query the data. 
+SQLAlchemy is a package which translates between SQL and Python, and Flask - SQLAlchemy lets us use SQLAlchemy inside the context of our web app.
+
 To create our database with SQLAlchemy, we will use models which inherit from a base python class provided by SQLAlchemy that allows for operations between the model and the database table. 
 For example, here is the model for the Session table:
 
@@ -63,17 +91,22 @@ class Session(db.Model):
     patient = db.relationship("Patient", back_populates = "sessions")
 ```
 
-ForeignKey() defines a dependency between two columns of different tables, establishing a relationship between the tables. For example, `patient_id = db.Column(db.Integer, db.ForeignKey("patient_list.patient_id"))` tells us that there's a column with type Integer in the patient_list table named patient_id and is related to the primary key in the Session table.
+`ForeignKey()` defines a dependency between two columns of different tables, establishing a relationship between the tables. For example, `patient_id = db.Column(db.Integer, db.ForeignKey("patient_list.patient_id"))` tells us that there's a column with type Integer in the patient_list table named patient_id and is related to the primary key in the Session table.
 
-relationship() creates a collection by finding the ForeignKey connection point between the two tables
+`relationship()` creates a collection by finding the ForeignKey connection point between the two tables
 
-To interact with our database, we need a SQLAlchemy session object. This is not to be confused with the class Session which represents the exercise session model defined within our database. These can be distinguished as the SQLAlchemy session object will always be db.session whereas the model will be capitalized as Session.
+To interact with our database, we need a SQLAlchemy session object. 
+This is not to be confused with the class Session which represents the exercise session model defined within our database. 
+These can be distinguished as the SQLAlchemy session object will always be `db.session` whereas the model will be capitalized as `Session`.
 
 If you want to be able to visualize your database, SQLite Viewer is a useful VSCode extension. 
 
+
 # Flask-WTForms 
+
 WTForms will allow us to take inputs for creating new data or updating existing data. 
-Start off by creating forms which mirrors the corresponding model, excluding any fields which don’t require user input. For example, almost all of the exercise types have models defined as such: 
+Start off by creating forms which mirrors the corresponding model, excluding any fields which don’t require user input. 
+For example, almost all of the exercise types have models defined as such: 
 ```python
 class Push(db.Model):
     __tablename__ = "push"
@@ -84,7 +117,8 @@ class Push(db.Model):
     weight_lbs = db.Column(db.Float)
     sessions = db.relationship("Session", backref = backref("push"))
 ```
-However, we wouldn’t want the user to manually define the primary key, and we can implement a method to automatically update the reps completed. Additionally, defining a relationship between tables isn't a field which users can input, so our corresponding form doesn’t include these fields: 
+However, we wouldn’t want the user to manually define the primary key, and we can implement a method to automatically update the reps completed. 
+Additionally, defining a relationship between tables isn't a field which users can input, so our corresponding form doesn’t include these fields: 
 ```python
 class PushForm(FlaskForm):
     exercise_name = StringField('Push Exercise Name')
@@ -93,8 +127,10 @@ class PushForm(FlaskForm):
 ```
 
 # Breaking down the Flask App
-If you want to learn how to create a flask app yourself, [this is a great resource](https://realpython.com/flask-project/) 
-Side note: In order to run the app, since the base code is spread across multiple files we use the terminal command `py -m flask --app folder_name_ run --port 8000 –debug` where folder_name is where the code is all stored. 
+
+If you want to learn how to create a flask app yourself, [this is a great resource](https://realpython.com/flask-project/).
+> [!NOTE]
+> In order to run the app, since the base code is spread across multiple files we use the terminal command `py -m flask --app folder_name_ run --port 8000 –debug` where folder_name is where the code is all stored. 
 
 In the main folder:
 ### \_\_init\_\_.py
@@ -114,7 +150,10 @@ In the main folder:
 - Each route contains code to execute along with rendering the view
     - These involve retrieving relevant data from the database or how to handle form inputs 
 
+<br>
+
 In the folder “templates”:
+
 Templates are html files that allow for dynamic displaying with Flask content and can incorporate python-like functionality, such as loops and conditionals.
 
 ### base.html
@@ -126,7 +165,10 @@ Templates are html files that allow for dynamic displaying with Flask content an
 - HTML fragment which is included in base.html
 - Focuses only on how to render a navigation menu
 
+<br>
+
 In the folder “pages”: 
+
 These are all child templates which extend the base template `base.html`. Each child template fills in the empty blocks of the base template with specific content
 
 ### home.html
@@ -146,6 +188,8 @@ These are all child templates which extend the base template `base.html`. Each c
 
 ### scheduler.html and edit_session.html
 - Connects to corresponding Session form and relevant subforms
+
+<br>
 
 # Adding Arduino and Serial Connections
 To add alternative functionality to this database, (sensor_monitor.py)[Database/sensor_monitor.py] and (double_rep_sensor.ino)[double_rep_sensor.ino] can be combined to automatically update the database with the number of completed reps for an exercise. Take a look at the Sensor Guide for more information on how to set up and use the sensors provided with Arduino. The sensor_monitor script should automatically run with the database (and it might throw up some errors if you don't have the Arduino connected to your laptop) but you won't see any increase in the completed reps until you reload the page. 
