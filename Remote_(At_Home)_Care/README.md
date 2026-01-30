@@ -13,9 +13,9 @@ Here are some things to think about as you come up with solutions for this probl
 ## Potential Solutions
 |Solution Description|Resources Needed|
 |:---|:---|
-|A mobile or web app that tracks patient movements during remote sessions|<ul> <li> Smartphone or laptop camera <li> [Flask](## "For backend") or [React Native / Flutter](## "For mobile app") <li> [Frontend framework](## "React, Vue, or HTML/CSS/JS") <li> [OpenCV or MediaPipe](## "For body tracking")|
-|An AI instructor that gives personalized feedback on form and technique|<ul> <li> [Machine learning model](## "Pose estimation + classification") <li> [Training data](## "Exercise movement datasets") <li> Python + PyTorch / TensorFlow <li> [Motion capture hardware (optional)](## "Camera, accelerometer, IMU sensors")|
-|A centralized online platform for live-streamed or pre-recorded exercise sessions|<ul> <li> [Website framework](## "Next.js, React, or Vue") <li> [Backend framework](## "Flask, Django, or Node.js") <li> Video hosting/streaming|
+|A mobile or web app that tracks patient movements during remote sessions|<ul><li> Camera (smartphone or laptop) <li> Backend web (Flask) or Mobile app (React Native / Flutter) <li> Frontend framework (React, Vue, HTML/CSS/JS, or Figma) <li> OpenCV or MediaPipe (body tracking libraries)</ul>|
+|An AI instructor that gives personalized feedback on form and technique|<ul><li> Machine learning model (pose estimation + classification) <li> Training data (exercise movement datasets) <li> Python with PyTorch/TensorFlow <li> Motion capture hardware (optional: camera, accelerometer, IMU sensors)</ul>|
+|A centralized online platform for live-streamed or pre-recorded exercise sessions|<ul><li> Website framework (Next.js, React, Vue, or Figma) <li> Backend framework (Flask, Django, or Node.js) <li> Video hosting or streaming services</ul>
 
 ## Resources
 - [Machine Vision Guide](./Machine_Vision_Guide.md)
