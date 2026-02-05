@@ -1,12 +1,14 @@
 # Welcome to the 2026 Health Tech Innovation Challenge!
 Created by: Engineering IDEAs Clinic Co-op Students
 ## Quick Links
-[Challenge-related Resources](./W26_Resources.md)
+[Resources](./W26_Resources.md)
 
 [Team Contract](https://docs.google.com/document/d/1aabVZP8zFsx5ySJawXSJsXq-EnOVudyL/edit?usp=drive_link&ouid=110563983100333644141&rtpof=true&sd=true)
+
 [Student Design Process Guide](https://drive.google.com/file/d/1rEKoyr5Izt50SrxQS8AT1OK6p92-6ZEj/view?usp=drive_link)
 
 [Student Presentation Template](https://docs.google.com/presentation/d/1_Zxe2LLO64XQ_dKbil0E658EaouzpNkK/edit?usp=drive_link&ouid=110563983100333644141&rtpof=true&sd=true)
+
 [Judging Rubric](https://drive.google.com/file/d/1iT8FT4ThAmk5mOFHxsF8cIwCkgrA4-r9/view?usp=drive_link)
 
 # Health Innovation Challenge:​ Exercise as a Healthcare Tool for Older Adults​
