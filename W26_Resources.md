@@ -14,3 +14,7 @@
 - [Sensors Guide](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Sensors/GUIDE.md)
 - [Information on dosages & exercise sessions](https://uofwaterloo.sharepoint.com/:w:/r/sites/tm-eng-engineeringideasclinic/Shared%20Documents/Health%20Hub/W26%20Health%20Tech%20Challenge%202/Dosages%20%26%20Exercise%20Sessions%20-%20More%20Details.docx?d=w4848032b80e54a9bab7b14fe89a329c8&csf=1&web=1&e=g0tvef)
 - [Figma Guide](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/UI_Design/Getting_Started_with_Figma.md)
+
+### Medical Devices in Canada
+- [How medical devices are classified in Canada](https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/activities/fact-sheets/safe-medical-devices-fact-sheet.html)
+- [Safety requirements for Class I Medical Devices in Canada (read sections 10-20](https://laws-lois.justice.gc.ca/eng/regulations/sor-98-282/fulltext.html#h-1021426)
