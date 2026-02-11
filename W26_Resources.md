@@ -20,6 +20,8 @@
 - [Safety requirements for Class I Medical Devices in Canada (read sections 10-20](https://laws-lois.justice.gc.ca/eng/regulations/sor-98-282/fulltext.html#h-1021426)
 
 ### Vibe Coding Resources
+Please see this video presented at the Workshop on Vibe Coding, [Vibe Coding as a Clinician](https://www.youtube.com/watch?v=52mI-PVJJBE).
+
 - Enroll in [GitHub Education](https://education.github.com/pack) with your UW Student ID to take advantage of [Copilot](https://github.com/features/copilot), a coding and chat agent which can be accessed from Visual Studio Code.
 - [Lovable](https://lovable.dev/) is a AI agent designed for creating user interfaces
 - [Google AI Studio](https://aistudio.google.com/welcome) is an LLM workspace that allows you to iterate over your design.
