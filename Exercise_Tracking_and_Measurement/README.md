@@ -16,6 +16,8 @@ A tracking system would help instructors:
 - Ensure participants complete the correct exercise dose.
 - Support consistent instruction across all sessions.
 
+  ![Uploading image.png…]()
+
 ## The Challenge
 Design a system that **tracks** and **measures** the quality of patient activity. 
 
