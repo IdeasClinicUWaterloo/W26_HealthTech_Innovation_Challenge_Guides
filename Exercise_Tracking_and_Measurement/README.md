@@ -3,18 +3,18 @@ At CCCARE, each instructor typically supervises 10–12 participants per session
 
 With limited supervision, it can be difficult to accurately monitor each participant's exercise performance. As a result:
 
-Some participants may not complete their prescribed exercises.
-Others may perform more repetitions than recommended.
-Exercise quality and participant outcomes may become inconsistent.
+- Some participants may not complete their prescribed exercises.
+- Others may perform more repetitions than recommended.
+- Exercise quality and participant outcomes may become inconsistent.
 
 Student volunteers are available to support participants who need additional assistance, such as individuals recovering from a stroke or living with dementia. However, because one-on-one support is not available for every participant, there is a need for a system that can monitor exercise performance consistently.
 
 A tracking system would help instructors:
 
-Monitor participant progress.
-Measure exercise quality.
-Ensure participants complete the correct exercise dose.
-Support consistent instruction across all sessions.
+- Monitor participant progress.
+- Measure exercise quality.
+- Ensure participants complete the correct exercise dose.
+- Support consistent instruction across all sessions.
 
 ## The Challenge
 Design a system that **tracks** and **measures** the quality of patient activity. 
