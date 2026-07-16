@@ -11,6 +11,11 @@ Currently, CCCARE relies on a hybrid data management system combining both digit
   
 Unfortunately, Access cannot be integrated with other clinical software or visualize data, hindering data sharing and coordination.
 
+## Table of Contents
+- [Challenge](#the-challenge)
+- [Potential Solutions](#potential-solutions)
+- [Resources](#resources)
+
 ## The Challenge
 Design a **scalable** system that makes it easier to prescribe, adjust, store, and share exercise doses efficiently.
 
