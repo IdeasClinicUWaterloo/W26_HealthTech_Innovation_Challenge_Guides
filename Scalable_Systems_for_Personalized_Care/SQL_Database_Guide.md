@@ -3,6 +3,16 @@
 To create a database, we will be using SQLAlchemy to interact with SQLite, a database storage engine. 
 WTForms will allow us to take user inputs, and Flask helps tie everything together into a web application along with basic HTML and CSS.
 
+## Table of Contents
+- [SQL Database Structure](#sql-database-structure)
+- [SQLAlchemy Installation Guide (macOS)](#installation-guide-for-sqlalchemy-(macOS))
+- [Using SQLAlchemy](#using-sqlalchemy)
+- [Flask-WTForms](#flask-wtforms)
+- [Breaking Down the Flask App](#breaking-down-the-flask-app)
+  - [In the main folder](#in-the-main-folder)
+  - [In the folder “templates”](#in-the-folder-templates)
+  - [In the folder “pages”](#in-the-folder-pages)
+- [Adding Arduino and Serial Connections](#adding-arduino-and-serial-connections)
 
 ## SQL Database Structures
 
@@ -128,13 +138,13 @@ class PushForm(FlaskForm):
     weight_lbs = FloatField('Weight (lbs)', validators=[Optional()])
 ```
 
-## Breaking down the Flask App
+## Breaking Down the Flask App
 
 If you want to learn how to create a flask app yourself, [this Flask Project Structure tutorial](https://realpython.com/flask-project/) is a great resource.
 > [!NOTE]
 > In order to run the app, since the base code is spread across multiple files we use the terminal command `py -m flask --app folder_name_ run --port 8000 –debug` where folder_name is where the code is all stored. 
 
-### In the main folder:
+### In the main folder
 #### \_\_init\_\_.py
 - Initializes the app and returns it
 - Activates CSRF token for WTForms to use
@@ -154,7 +164,7 @@ If you want to learn how to create a flask app yourself, [this Flask Project Str
 
 <br>
 
-### In the folder “templates”:
+### In the folder “templates”
 
 Templates are html files that allow for dynamic displaying with Flask content and can incorporate python-like functionality, such as loops and conditionals.
 
@@ -169,7 +179,7 @@ Templates are html files that allow for dynamic displaying with Flask content an
 
 <br>
 
-### In the folder “pages”: 
+### In the folder “pages”
 
 These are all child templates which extend the base template `base.html`. Each child template fills in the empty blocks of the base template with specific content
 
