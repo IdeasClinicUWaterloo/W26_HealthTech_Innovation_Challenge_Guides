@@ -20,13 +20,14 @@ A tracking system would help instructors:
 Design a system that **tracks** and **measures** the quality of patient activity. 
 
 ## Potential Solutions
-|Solution Description|Resources Needed|
-|:---|:---|
-| Motion trackers that are worn on the wrist/ankle (like a fitness tracker) to track limb motion, speed, and tremor | <ul><li>Accelerometers (measure angle and position)</li><li>Arduino (reads data from the sensors)</li><li>3D printed attachment/frame (mounts hardware to the body)</li></ul> |
-| A vest that can be worn during exercise to track vitals (like smart clothes), such as heart rate, heart rate variability, breathing rate/volume
- <ul><li>Oximeter (senses heart rate and blood oxygen)<li>Various sensors</li><li>Arduino (reads inputs from sensors)</li><li>Vest</li></ul> |
-| Exercise mats (or step platforms) or wearable equipment embedded with pressure sensors to detect movement, force, and repetitions | <ul><li>Pressure sensors (detect pressure)</li><li>Various sensors (e.g., accelerometers for movement detection)</li><li>Arduino (reads inputs from sensors)</li><li>Exercise mats/step platform</li></ul> |
-| Add sensors to existing exercise equipment | <ul><li>Various sensors</li><li>Exercise equipment to be modified</li></ul> |
+The ideas below are examples to help you get started. You may choose one of these ideas or combine multiple approaches if appropriate.
+
+| **Potential Solution** | **Resources Needed** |
+|:-----------------------|:---------------------|
+| **Wearable Motion Tracker**<br>Develop a wrist- or ankle-worn device (similar to a fitness tracker) that monitors limb movement, speed, and tremors during exercise. | <ul><li>Accelerometers (measure angle and position)</li><li>Arduino (reads data from the sensors)</li><li>3D-printed attachment/frame (mounts hardware to the body)</li></ul> |
+| **Smart Exercise Vest**<br>Design a wearable vest that tracks vital signs during exercise, such as heart rate, heart rate variability, breathing rate, and breathing volume. | <ul><li>Pulse oximeter (measures heart rate and blood oxygen)</li><li>Various sensors</li><li>Arduino (reads inputs from sensors)</li><li>Vest</li></ul> |
+| **Pressure-Sensing Exercise Mat or Step Platform**<br>Develop an exercise mat, step platform, or wearable device with embedded pressure sensors to detect movement, force, and exercise repetitions. | <ul><li>Pressure sensors (detect pressure)</li><li>Various sensors (e.g., accelerometers for movement detection)</li><li>Arduino (reads inputs from sensors)</li><li>Exercise mat or step platform</li></ul> |
+| **Sensor-Enhanced Exercise Equipment**<br>Modify existing exercise equipment by adding sensors that automatically measure exercise performance. | <ul><li>Various sensors</li><li>Existing exercise equipment to be modified</li></ul> |
 
 ## Resources
 - [Tutorial on 3D printing](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/3D_Modeling_and_Printing/GUIDE.md)
