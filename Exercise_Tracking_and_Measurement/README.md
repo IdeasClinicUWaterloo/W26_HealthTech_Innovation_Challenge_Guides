@@ -29,6 +29,21 @@ The ideas below are examples to help you get started. You may choose one of thes
 | **Pressure-Sensing Exercise Mat or Step Platform**<br>Develop an exercise mat, step platform, or wearable device with embedded pressure sensors to detect movement, force, and exercise repetitions. | <ul><li>Pressure sensors (detect pressure)</li><li>Various sensors (e.g., accelerometers for movement detection)</li><li>Arduino (reads inputs from sensors)</li><li>Exercise mat or step platform</li></ul> |
 | **Sensor-Enhanced Exercise Equipment**<br>Modify existing exercise equipment by adding sensors that automatically measure exercise performance. | <ul><li>Various sensors</li><li>Existing exercise equipment to be modified</li></ul> |
 
+## Exercise Tracking and Measurement
+
+![Instructor supervising participants during a rehabilitation exercise session.](images/rehab-session.jpg)
+
+## Potential Solutions
+
+| **Potential Solution** | **Resources Needed** |
+|:-----------------------|:---------------------|
+| **Wearable Motion Tracker**<br><br>![Participant wearing a wrist-mounted motion tracker during exercise.](images/fitness-tracker.jpg)<br><br>Develop a wrist- or ankle-worn device... | ... |
+| **Smart Exercise Vest**<br><br>![Wearable vest with integrated health sensors.](images/smart-vest.jpg)<br><br>Design a wearable vest... | ... |
+| **Pressure-Sensing Exercise Mat**<br><br>![Pressure-sensing exercise mat used for rehabilitation exercises.](images/pressure-mat.jpg)<br><br>Develop an exercise mat... | ... |
+| **Sensor-Enhanced Exercise Equipment**<br><br>![Exercise equipment modified with electronic sensors.](images/sensor-equipment.jpg)<br><br>Modify existing exercise equipment... | ... |
+
+
+
 ## Resources
 - [Tutorial on 3D printing](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/3D_Modeling_and_Printing/GUIDE.md)
 - [Tutorial on implementing dual accelerometers for exercise tracking](./Sensor/Dual_Accelerometers_for_Exercise_Tracking.md)
