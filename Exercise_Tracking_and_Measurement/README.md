@@ -24,24 +24,11 @@ The ideas below are examples to help you get started. You may choose one of thes
 
 | **Potential Solution** | **Resources Needed** |
 |:-----------------------|:---------------------|
-| **Wearable Motion Tracker**<br>Develop a wrist- or ankle-worn device (similar to a fitness tracker) that monitors limb movement, speed, and tremors during exercise. | <ul><li>Accelerometers (measure angle and position)</li><li>Arduino (reads data from the sensors)</li><li>3D-printed attachment/frame (mounts hardware to the body)</li></ul> |
+| **Wearable Motion Tracker**<br>Develop a wrist- or ankle-worn device (similar to a fitness tracker) that monitors limb movement, speed, and tremors during exercise. | <ul><li>Accelerometers (measure angle and position)</li><li>Arduino (reads data from the sensors)</li><li>3D-printed attachment/frame (mounts hardware to the body)</li></ul> | 
 | **Smart Exercise Vest**<br>Design a wearable vest that tracks vital signs during exercise, such as heart rate, heart rate variability, breathing rate, and breathing volume. | <ul><li>Pulse oximeter (measures heart rate and blood oxygen)</li><li>Various sensors</li><li>Arduino (reads inputs from sensors)</li><li>Vest</li></ul> |
+<img width="180" height="180" alt="Smart Vest" src="https://github.com/user-attachments/assets/83783363-95ba-47ab-92c3-aca2c6ce5cdd" />
 | **Pressure-Sensing Exercise Mat or Step Platform**<br>Develop an exercise mat, step platform, or wearable device with embedded pressure sensors to detect movement, force, and exercise repetitions. | <ul><li>Pressure sensors (detect pressure)</li><li>Various sensors (e.g., accelerometers for movement detection)</li><li>Arduino (reads inputs from sensors)</li><li>Exercise mat or step platform</li></ul> |
 | **Sensor-Enhanced Exercise Equipment**<br>Modify existing exercise equipment by adding sensors that automatically measure exercise performance. | <ul><li>Various sensors</li><li>Existing exercise equipment to be modified</li></ul> |
-
-## Exercise Tracking and Measurement
-
-![Instructor supervising participants during a rehabilitation exercise session.](images/rehab-session.jpg)
-
-## Potential Solutions
-
-| **Potential Solution** | **Resources Needed** |
-|:-----------------------|:---------------------|
-| **Wearable Motion Tracker**<br><br>![Participant wearing a wrist-mounted motion tracker during exercise.](images/fitness-tracker.jpg)<br><br>Develop a wrist- or ankle-worn device... | ... |
-| **Smart Exercise Vest**<br><br>![Wearable vest with integrated health sensors.](images/smart-vest.jpg)<br><br>Design a wearable vest... | ... |
-| **Pressure-Sensing Exercise Mat**<br><br>![Pressure-sensing exercise mat used for rehabilitation exercises.](images/pressure-mat.jpg)<br><br>Develop an exercise mat... | ... |
-| **Sensor-Enhanced Exercise Equipment**<br><br>![Exercise equipment modified with electronic sensors.](images/sensor-equipment.jpg)<br><br>Modify existing exercise equipment... | ... |
-
 
 
 ## Resources
