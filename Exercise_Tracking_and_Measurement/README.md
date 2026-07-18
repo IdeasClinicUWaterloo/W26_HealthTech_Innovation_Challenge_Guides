@@ -11,7 +11,8 @@ Student volunteers are available to support participants who need additional ass
 
 A tracking system would help instructors:
 
-- Monitor participant progress.
+- Monitor participant progress.                                      <img width="180" height="180" alt="Measure Training" src="https://github.com/user-attachments/assets/e4cbe7ee-89be-4e95-89bf-f596444dc09d" />
+
 - Measure exercise quality.
 - Ensure participants complete the correct exercise dose.
 - Support consistent instruction across all sessions.
