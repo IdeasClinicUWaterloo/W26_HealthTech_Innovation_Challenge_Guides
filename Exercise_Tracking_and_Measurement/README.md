@@ -11,11 +11,14 @@ Student volunteers are available to support participants who need additional ass
 
 A tracking system would help instructors:
 
-- Monitor participant progress.                                                  <img width="200" height="200" alt="Measure Training" src="https://github.com/user-attachments/assets/e4cbe7ee-89be-4e95-89bf-f596444dc09d" />
-
+- Monitor participant progress.                                                                         
 - Measure exercise quality.
 - Ensure participants complete the correct exercise dose.
 - Support consistent instruction across all sessions.
+
+  <img width="230" height="220" alt="Measure Training" src="https://github.com/user-attachments/assets/e4cbe7ee-89be-4e95-89bf-f596444dc09d" />
+  <img width="240" height="220" alt="Smart Vest" src="https://github.com/user-attachments/assets/cb59314e-16a3-4318-90af-0a578c2f8bdc" />
+
 
 ## The Challenge
 Design a system that **tracks** and **measures** the quality of patient activity. 
