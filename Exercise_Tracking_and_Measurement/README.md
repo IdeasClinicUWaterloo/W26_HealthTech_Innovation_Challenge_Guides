@@ -23,7 +23,7 @@ Design a system that **tracks** and **measures** the quality of patient activity
 |Solution Description|Resources Needed|
 |:---|:---|
 | Motion trackers that are worn on the wrist/ankle (like a fitness tracker) to track limb motion, speed, and tremor | <ul><li>Accelerometers (measure angle and position)</li><li>Arduino (reads data from the sensors)</li><li>3D printed attachment/frame (mounts hardware to the body)</li></ul> |
-| A vest that can be worn during exercise to track vitals (like smart clothes), such as heart rate, heart rate variability, breathing rate/volume <img width="200" height="200" alt="Smart Vest" src="https://github.com/user-attachments/assets/80846c4e-34e4-47c1-b129-86be4a723442" /> | <ul><li>Oximeter (senses heart rate and blood oxygen)</li><li>Various sensors</li><li>Arduino (reads inputs from sensors)</li><li>Vest</li></ul> |
+| A vest that can be worn during exercise to track vitals (like smart clothes), such as heart rate, heart rate variability, breathing rate/volume /> | <ul><li>Oximeter (senses heart rate and blood oxygen) <img width="200" height="200" alt="Smart Vest" src="https://github.com/user-attachments/assets/80846c4e-34e4-47c1-b129-86be4a723442"</li><li>Various sensors</li><li>Arduino (reads inputs from sensors)</li><li>Vest</li></ul> |
 | Exercise mats (or step platforms) or wearable equipment embedded with pressure sensors to detect movement, force, and repetitions | <ul><li>Pressure sensors (detect pressure)</li><li>Various sensors (e.g., accelerometers for movement detection)</li><li>Arduino (reads inputs from sensors)</li><li>Exercise mats/step platform</li></ul> |
 | Add sensors to existing exercise equipment | <ul><li>Various sensors</li><li>Exercise equipment to be modified</li></ul> |
 
