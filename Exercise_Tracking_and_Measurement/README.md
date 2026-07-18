@@ -8,6 +8,7 @@ With limited supervision, it can be difficult to accurately monitor each partici
 - Exercise quality and participant outcomes may become inconsistent.
 
 Student volunteers are available to support participants who need additional assistance, such as individuals recovering from a stroke or living with dementia. However, because one-on-one support is not available for every participant, there is a need for a system that can monitor exercise performance consistently.
+<img width="447" height="447" alt="Smart Vest" src="https://github.com/user-attachments/assets/80846c4e-34e4-47c1-b129-86be4a723442" />
 
 A tracking system would help instructors:
 
