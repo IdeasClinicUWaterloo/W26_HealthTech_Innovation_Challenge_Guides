@@ -11,7 +11,6 @@ To expand access, CCCARE aims to introduce remote (at-home) rehabilitation progr
 Remote care has the potential to improve accessibility, reduce scheduling constraints, and help graduates maintain continuity after completing in-person programs.
 
 ---
-
 ## The Challenge
 
 Design a remote rehabilitation system that helps patients:
@@ -31,7 +30,6 @@ Consider questions such as:
 - How can we recreate the sense of community from in-person sessions?
 
 ---
-
 ## Potential Solutions
 |Solution Description|Resources Needed|
 |:---|:---|
@@ -40,7 +38,6 @@ Consider questions such as:
 |A centralized online platform for live-streamed or pre-recorded exercise sessions|<ul><li> Website framework (Next.js, React, Vue, or Figma) <li> Backend framework (Flask, Django, or Node.js) <li> Video hosting or streaming services</ul>
 
 ---
-
 ## Resources
 - [Machine Vision Guide](./Machine_Vision_Guide.md)
 - [Figma Guide](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/UI_Design/Getting_Started_with_Figma.md)
