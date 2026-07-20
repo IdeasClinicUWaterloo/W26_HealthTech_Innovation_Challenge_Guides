@@ -34,7 +34,7 @@ After completing this guide, you will be able to:
 - Install the required libraries
 - Create a Jupyter Notebook
 - Explore OpenCV and MediaPipe
-- Begin developing machine vision applications
+- Begin developing machine vision applications.
 
 ---
 
@@ -58,11 +58,11 @@ A structured workflow that automates the process of building, training, evaluati
 
 **MediaPipe**
 
-Google's open-source framework for building and deploying machine learning pipelines for vision, text, and audio applications.
+Google's open-source framework for building and deploying machine learning pipelines.
 
 **OpenCV**
 
-An open-source software library for computer vision and image processing (Open Source Computer Vision Library).
+An open-source software library for computer vision and machine learning (Open Source Computer Vision Library).
 
 **Python**
 
@@ -75,7 +75,7 @@ A general-purpose programming language widely used for machine learning, compute
 Before getting started, make sure you have:
 
 - Python **3.9–3.11**
-- A code editor such as **Visual Studio Code** (recommended)
+- Visual Studio Code (recommended)
 - Internet access
 - A webcam (recommended for many computer vision applications)
 
@@ -87,9 +87,9 @@ Before getting started, make sure you have:
 
 This project is developed using Python.
 
-If you have not used Python before or do not have it installed, please follow the **Getting Started with Python** guide:
-
-https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Python/Getting_Started_with_Python.md
+If you are new to Python or have not installed it yet, complete the
+[Getting Started with Python](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Python/Getting_Started_with_Python.md)
+guide before continuing.
 
 For this project, install **Python version 3.9–3.11**.
 
@@ -101,12 +101,12 @@ This project uses the following Python libraries:
 
 | Library | Purpose |
 |----------|---------|
-| OpenCV | Image and video processing |
-| MediaPipe Solutions | Real-time computer vision tasks such as pose estimation, hand tracking, and face detection |
-| NumPy | Matrix and array operations |
-| TensorFlow | Building and training deep learning models |
+| **OpenCV** | Image and video processing |
+| **MediaPipe Solutions** | Real-time computer vision tasks such as pose estimation, hand tracking, and face detection |
+| **NumPy** | Matrix and array operations |
+| **TensorFlow** | Building and training deep learning models |
 
-Download the `requirements.txt` file in this folder and install all dependencies by running:
+Download the `requirements.txt` file included in this folder and install all required dependencies by running:
 
 ```bash
 pip install -r requirements.txt
@@ -118,9 +118,9 @@ pip install -r requirements.txt
 
 Jupyter Notebook provides an interactive environment for machine learning development. It allows you to write and execute code in small sections, visualize data, and document your work in a single location.
 
-If you are new to Jupyter Notebook, see:
-
-https://code.visualstudio.com/docs/datascience/jupyter-notebooks
+If you are unfamiliar with Jupyter Notebook, see the
+[Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+documentation.
 
 ---
 
@@ -128,9 +128,9 @@ https://code.visualstudio.com/docs/datascience/jupyter-notebooks
 
 ## Getting Started with OpenCV
 
-If you've never worked with computer vision before, read the **Getting Started with OpenCV** guide:
-
-https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Machine_Vision/Getting_Started_with_OpenCV.md
+If you've never worked with computer vision before, read the
+[Getting Started with OpenCV](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Machine_Vision/Getting_Started_with_OpenCV.md)
+guide.
 
 This guide introduces OpenCV (Open Source Computer Vision Library), one of the most widely used computer vision libraries.
 
@@ -138,26 +138,20 @@ This guide introduces OpenCV (Open Source Computer Vision Library), one of the m
 
 ## Getting Started with Machine Learning
 
-If you're new to machine learning, read the **Getting Started with Machine Learning** guide:
+If you're new to machine learning, read the
+[Getting Started with Machine Learning](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Getting_Started_with_Machine_Learning.md)
+guide.
 
-https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Getting_Started_with_Machine_Learning.md
-
-It explains:
-
-- Machine learning fundamentals
-- The machine learning workflow
-- Model development
-- Model deployment
+It introduces machine learning concepts and explains the workflow used to develop and deploy ML models.
 
 ---
 
 # Choose a Machine Learning Solution
 
-Once your development environment is ready and you understand the basics, explore **MediaPipe Studio**:
+Once your development environment is ready and you understand the basics, explore
+[MediaPipe Studio](https://mediapipe-studio.webapps.google.com/home).
 
-https://mediapipe-studio.webapps.google.com/home
-
-MediaPipe Studio provides ready-to-use solutions for many AI applications.
+MediaPipe Studio provides ready-to-use solutions for a wide range of AI applications.
 
 ### Vision
 
@@ -176,14 +170,13 @@ MediaPipe Studio provides ready-to-use solutions for many AI applications.
 
 - Audio Classification
 
-Choose the solution that best matches your project before beginning development.
+Choose the solution that best fits your application before beginning development.
 
 ---
 
 # Example Application
 
-To see how these components work together, explore the **Health-Related Application** example:
-
-https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Machine_Vision/Health_Related_Application.md
+To see how these components work together, explore the
+[Health-Related Application](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Machine_Vision/Health_Related_Application.md).
 
 This example demonstrates how to build a pose-detection application using MediaPipe.
