@@ -1,65 +1,185 @@
 # Machine Vision Guide
+
 ## Table of Contents
-### 1. [Introduction](#1)
-### 2. [Terminology](#2)
-### 3. [Setting up your System](#3)
-   - 3.1. [Install Python Libraries](#3.1)
-   - 3.2. [Create a Jupyter Notebook](#3.2)
-   - 3.3. [Set up a Computer Vision System](#3.3)
-   - 3.4. [Machine Learning](#3.4)
-   - 3.5. [Choose a Machine Learning Solution](#3.5)
-   
-<h2 id = '1'> 1. Introduction</h2>
 
-This guide walks you through the steps required to set up a machine vision system. By combining machine learning (ML) with computer vision, you'll be able to track and respond to specific activities or the presence or absence of certain objects. Typical applications are quality control, automation, inspection, and process optimization. If you've never worked with machine learning before, check out this [Getting_Started_with_Machine_Learning](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Getting_Started_with_Machine_Learning.md) guide. It will introduce you to machine learning (ML) and explain the workflow that guides development and deployment of ML models.
+1. [Introduction](#1-introduction)
+2. [Terminology](#2-terminology)
+3. [Prerequisites](#3-prerequisites)
+4. [Setting Up Your System](#4-setting-up-your-system)
+   - 4.1 [Install Python](#41-install-python)
+   - 4.2 [Install Required Libraries](#42-install-required-libraries)
+   - 4.3 [Create a Jupyter Notebook](#43-create-a-jupyter-notebook)
+5. [Learn the Basics](#5-learn-the-basics)
+   - 5.1 [Computer Vision with OpenCV](#51-computer-vision-with-opencv)
+   - 5.2 [Machine Learning Fundamentals](#52-machine-learning-fundamentals)
+6. [Choose a Machine Learning Solution](#6-choose-a-machine-learning-solution)
+7. [Example Project](#7-example-project)
 
-<h2 id = '2'> 2. Terminology</h2>
+---
 
-**Computer Vision**: a branch of AI that lets machines capture and interpret real-world visual data (images or video)
+# 1. Introduction
 
-**Jupyter Notebook**: an open-source web application to create and share documents that contain live code, equations, visualizations, and narrative text. It supports Python, R, Julia, Ruby, Scala, and Node.js languages
+This guide walks you through the steps required to build a machine vision system using Python, OpenCV, and MediaPipe.
 
-**Machine Learning (ML)**:  a branch of AI that teaches systems to think and understand like humans by learning from data
+By combining machine learning (ML) with computer vision, you'll be able to detect, classify, and respond to objects, people, or activities in images and video. Typical applications include:
 
-**Machine-Learning Pipeline**: a structured workflow that automates the process of building, training, and deploying machine learning models
+- Quality control
+- Industrial automation
+- Inspection
+- Process optimization
 
-**MediaPipe**: Google's open-source framework for building and deploying machine-learning pipelines
+After completing this guide, you will be able to:
 
-**OpenCV**: an open-source software library for computer vision and machine learning (short for Open Source Computer Vision library)
+- Install the required software
+- Set up a Python development environment
+- Use Jupyter Notebook
+- Explore OpenCV and MediaPipe
+- Begin developing machine vision applications
 
-**Python**: an easy-to-use programming environment for general purpose coding
+---
 
-<h2 id = '3'> 3. Setting up your System</h2>
+# 2. Terminology
 
-This machine learning system will be created in Python.  If you haven't used Python before or don't have it installed on your computer, please check out this [Getting Started with Python](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Python/Getting_Started_with_Python.md) guide. It will guide you through the steps required to install and run Python. Make sure to install a Python **version between 3.9 - 3.11** for this project.
+**Computer Vision**
 
-<h3 id = '3.1'> 3.1 Install Python Libraries</h3>
-You'll need to install the following libraries for your machine vision system:
+A branch of artificial intelligence that enables computers to interpret and analyze images and video.
 
- - **OpenCV**: For handling image and video processing
-- **MediaPipe Solutions**: For real-time computer vision tasks such as pose estimation, hand tracking, and face detection
-- **NumPy**: For matrix and array operations
-- **Tensorflow**: For building and training machine learning models (specifically deep learning)
+**Jupyter Notebook**
 
-You can download the `requirements.txt` file in this folder and run this one-line command in the terminal: `pip install -r requirements.txt
+An open-source web application for creating and sharing interactive documents containing live code, visualizations, equations, and explanatory text.
 
-<h3 id = '3.2'> 3.2 Create a Jupyter Notebook</h3>
+**Machine Learning (ML)**
 
-Jupyter Notebook is often used for machine learning applications because it provides an interactive environment where you can write and run code in small chunks, visualize data and document your process all in one location. 
+A branch of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task.
 
-If you haven't used Jupyter Notebook before, please check out this [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) site on setting up and using it.
+**Machine Learning Pipeline**
 
-<h3 id = '3.3'> 3.3. Set up a Computer Vision System</h2>
+A structured workflow for collecting data, training, evaluating, and deploying machine learning models.
 
-If you've never worked with a computer vision system before, please check out this [Getting Started with OpenCV](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Machine_Vision/Getting_Started_with_OpenCV.md) guide. It will introduce you to OpenCV, short for **Open Source Computer Vision Library**, which is an open-source software library for computer vision and machine learning. 
+**MediaPipe**
 
-<h3 id = '3.4'> 3.4. Machine Learning</h3>
+Google's open-source framework for building and deploying machine learning pipelines for vision, text, and audio applications.
 
-If you've never worked with machine learning before, check out this [Getting_Started_with_Machine_Learning](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Getting_Started_with_Machine_Learning.md) guide. It will introduce you to machine learning (ML) and explain the workflow that guides development and deployment of ML models.  
+**OpenCV**
 
-<h3 id = '3.5'> 3.5. Choose a Machine Learning Solution</h2>
+An open-source software library for computer vision and image processing.
 
-Then you'll want to explore the resources in the [MediaPipe Studio](https://mediapipe-studio.webapps.google.com/home). Here you can choose from vision-related solutions such as object detection, image classification and pose detection, text-related solutions such as text classification and language detection, or audio classification.
+**Python**
 
-- Check out this [Health-Related Application](https://github.com/IdeasClinicUWaterloo/Technologies-Utilized-for-Idea-s-Clinic-Challenges/blob/main/Machine_Learning/Machine_Vision/Health_Related_Application.md) that uses MediaPipe's pose detection library.
+A general-purpose programming language widely used in machine learning and computer vision.
+
+---
+
+# 3. Prerequisites
+
+Before starting, make sure you have:
+
+- Python 3.9–3.11
+- VS Code (recommended)
+- Internet access
+- A webcam (recommended for many computer vision applications)
+
+---
+
+# 4. Setting Up Your System
+
+## 4.1 Install Python
+
+This project is developed in Python.
+
+If you have not installed Python or are unfamiliar with it, follow the
+[Getting Started with Python](...) guide.
+
+For this project, install **Python version 3.9–3.11**.
+
+---
+
+## 4.2 Install Required Libraries
+
+This guide uses the following Python libraries:
+
+| Library | Purpose |
+|----------|---------|
+| OpenCV | Image and video processing |
+| MediaPipe Solutions | Pose estimation, hand tracking, face detection, object detection, and other real-time vision tasks |
+| NumPy | Matrix and array operations |
+| TensorFlow | Building and training deep learning models |
+
+Download the `requirements.txt` file included in this folder and install all dependencies by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4.3 Create a Jupyter Notebook
+
+Jupyter Notebook provides an interactive environment for developing machine learning applications. It allows you to write code, visualize data, and document your work in a single location.
+
+If you are new to Jupyter Notebook, see:
+
+[Jupyter Notebooks in VS Code](...)
+
+---
+
+# 5. Learn the Basics
+
+## 5.1 Computer Vision with OpenCV
+
+If you've never worked with computer vision before, begin with the
+[Getting Started with OpenCV](...) guide.
+
+This guide introduces OpenCV (Open Source Computer Vision Library), one of the most widely used computer vision libraries.
+
+---
+
+## 5.2 Machine Learning Fundamentals
+
+If you're new to machine learning, read the
+[Getting Started with Machine Learning](...) guide.
+
+It explains:
+
+- Machine learning fundamentals
+- The machine learning workflow
+- Model development
+- Model deployment
+
+---
+
+# 6. Choose a Machine Learning Solution
+
+After setting up your environment and learning the basics, explore
+[MediaPipe Studio](...).
+
+MediaPipe Studio provides ready-to-use solutions for:
+
+### Vision
+
+- Object Detection
+- Image Classification
+- Pose Detection
+- Hand Tracking
+- Face Detection
+
+### Text
+
+- Text Classification
+- Language Detection
+
+### Audio
+
+- Audio Classification
+
+Choose the solution that best matches your application before beginning development.
+
+---
+
+# 7. Example Project
+
+To see how these components work together, explore the
+[Health-Related Application](...).
+
+This example demonstrates how to build a pose-detection application using MediaPipe.
 
