@@ -1,20 +1,27 @@
 # Exercise Tracking and Measurement
 At CCCARE, each instructor typically supervises 10–12 participants per session. Sessions for graduated participants may include up to 30 participants per instructor.
 
-With limited supervision, it can be difficult to accurately monitor each participant's exercise performance. As a result:
+With this many participants, it can be challenging for instructors to closely monitor everyone's exercise performance at the same time. Participants may be exercising at different stations, moving at different speeds, or require different levels of assistance. As a result:
 
-- Some participants may not complete their prescribed exercises.
-- Others may perform more repetitions than recommended.
-- Exercise quality and participant outcomes may become inconsistent.
+- Some participants may not complete all of their prescribed exercises.
+- Others may perform more repetitions than recommended, which could lead to unnecessary fatigue.
+- Participants may use incorrect posture or movement patterns without realizing it.
+- Exercises may be performed too quickly or too slowly, reducing their effectiveness.
+- Participants may skip exercises or perform them in the wrong order.
+- Instructors may not notice when a participant is struggling, becoming tired, or needs additional support.
+- Exercise quality and participant outcomes may become inconsistent from one session to another.
 
-Student volunteers are available to support participants who need additional assistance, such as individuals recovering from a stroke or living with dementia. However, because one-on-one support is not available for every participant, there is a need for a system that can monitor exercise performance consistently.
+Student volunteers are available to support participants who need additional assistance, such as individuals recovering from a stroke, living with dementia, or experiencing mobility or balance challenges. For example, volunteers may help participants understand exercise instructions, provide encouragement, or assist with safe movement. However, because one-on-one support is not available for every participant throughout the session, instructors cannot continuously observe everyone's performance. This creates a need for a system that can monitor exercise performance consistently and provide objective feedback.
 
 A tracking system would help instructors:
 
-- Monitor participant progress.                                                                         
-- Measure exercise quality.
-- Ensure participants complete the correct exercise dose.
-- Support consistent instruction across all sessions.
+- Monitor participant progress over time.
+- Measure exercise quality, including range of motion, speed, and consistency.
+- Count repetitions automatically to ensure participants complete the correct exercise dose.
+- Identify participants who may need additional assistance or corrections during the session.
+- Detect when exercises are performed incorrectly or incompletely.
+- Reduce the workload on instructors, allowing them to focus on participants who require direct support.
+- Support consistent instruction and more reliable exercise monitoring across all sessions.
 
   <img width="230" height="220" alt="Measure Training" src="https://github.com/user-attachments/assets/e4cbe7ee-89be-4e95-89bf-f596444dc09d" />
   <img width="240" height="220" alt="Smart Vest" src="https://github.com/user-attachments/assets/cb59314e-16a3-4318-90af-0a578c2f8bdc" />
