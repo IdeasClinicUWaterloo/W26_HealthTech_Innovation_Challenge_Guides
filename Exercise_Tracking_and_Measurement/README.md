@@ -1,5 +1,5 @@
 # Exercise Tracking and Measurement
-At CCCARE, each instructor typically supervises 10–12 participants per session. Sessions for graduated participants may include up to 30 participants per instructor.
+At CCCARE, each instructor typically supervises** 10–12 participants** per session. Sessions for graduated participants may include** up to 30 participants** per instructor.
 
 With this many participants, it can be challenging for instructors to closely monitor everyone's exercise performance at the same time. Participants may be exercising at different stations, moving at different speeds, or require different levels of assistance. As a result:
 
